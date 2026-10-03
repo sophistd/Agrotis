@@ -1,0 +1,31 @@
+{
+  "version": "candidate-identities/1",
+  "items": [
+    {
+      "id": "GRID-06B",
+      "display_name": "天宁载荷 · GRID-06B",
+      "host_platform": "长光 MF02A04",
+      "launch_date": "2023-01-15",
+      "candidate_norad_ids": [
+        55252,
+        55261
+      ],
+      "norad_mapping": "unresolved",
+      "current_orbit": "unavailable",
+      "source": "https://physics.scu.edu.cn/info/1063/3923.htm"
+    },
+    {
+      "id": "GRID-08B",
+      "display_name": "天宁载荷 · GRID-08B",
+      "host_platform": "天仪 TY-25",
+      "launch_date": "2023-01-15",
+      "candidate_norad_ids": [
+        55252,
+        55261
+      ],
+      "norad_mapping": "unresolved",
+      "current_orbit": "unavailable",
+      "source": "https://physics.scu.edu.cn/info/1063/3923.htm"
+    }
+  ]
+}

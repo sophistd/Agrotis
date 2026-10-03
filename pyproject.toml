@@ -1,0 +1,16 @@
+[project]
+name = "agrotis-science"
+version = "0.1.0"
+description = "带来源与有效时间的空间科学计算验证服务"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi==0.142.2", "uvicorn==0.54.0", "pydantic==2.13.5",
+  "sgp4==2.27", "astropy==8.0.1", "numpy==2.5.3", "scipy==1.18.1"
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1", "httpx==0.28.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["backend/tests"]
+pythonpath = ["."]

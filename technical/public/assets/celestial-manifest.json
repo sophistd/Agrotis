@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "prepared_at": "2026-10-01T13:08:19.852Z",
+  "items": [
+    {
+      "file": "bennu-near.glb",
+      "source": "https://svs.gsfc.nasa.gov/5069/",
+      "input_sha256": "bd580d0d01ee7e93b25e0262b5c986cacb21ff240a8600158fa570c7d085b95f",
+      "source_triangles": 3366134,
+      "triangles": 400000,
+      "vertices": 200006,
+      "relative_simplification_error": 0.00032865526736713946,
+      "bytes": 9600996,
+      "sha256": "e6ef4c51d140b3f8c9c0e92d20da14584f7229b49db8fcca87938c3ae6c17513"
+    },
+    {
+      "file": "bennu-far.glb",
+      "source": "https://svs.gsfc.nasa.gov/5069/",
+      "input_sha256": "bd580d0d01ee7e93b25e0262b5c986cacb21ff240a8600158fa570c7d085b95f",
+      "source_triangles": 3366134,
+      "triangles": 99966,
+      "vertices": 49985,
+      "relative_simplification_error": 0.00089702766854316,
+      "bytes": 2400076,
+      "sha256": "a2fc44b8cf080cb792cbe1f12f2c0014da019212fd178bac3bda101806bf2d98"
+    },
+    {
+      "file": "67p.glb",
+      "source": "https://sci.esa.int/web/rosetta/-/54728-shape-model-of-comet-67p",
+      "input_sha256": "e0d834d083b20ebb6cfb97cb212021cf604e442953c9c7c2719cc9ef6472d7ad",
+      "source_triangles": 62908,
+      "triangles": 62908,
+      "vertices": 31456,
+      "relative_simplification_error": 0,
+      "bytes": 1510680,
+      "sha256": "7c019bc206ff88580347b6908a8c30bff92c37931bb9558965b686723ea14d96"
+    },
+    {
+      "file": "moon-color.jpg",
+      "source": "https://svs.gsfc.nasa.gov/14959/",
+      "bytes": 4631745,
+      "sha256": "cc32b024491668b8a2d4e1a6c911ce9a130e9eb8e6704f65027697877f6aa77f",
+      "modified": false,
+      "usage": "Original embedded LRO 8k JPEG, extracted without pixel changes"
+    },
+    {
+      "file": "moon.glb",
+      "source": "https://svs.gsfc.nasa.gov/14959/",
+      "source_download": "https://svs.gsfc.nasa.gov/vis/a010000/a014900/a014959/Moon_NASA_LRO_8k_Topo_Small.glb",
+      "input_sha256": "c4b65fb4df622a37fd75366c2ed9bf9e163e41c0fde178b3b27e31b0173e6953",
+      "source_triangles": 1015808,
+      "vertices": 457262,
+      "triangles": 896114,
+      "relative_simplification_error": 1.981917375815101e-05,
+      "weld_tolerance": 1e-06,
+      "texture": "moon-color.jpg",
+      "terrain": true,
+      "bytes": 25386944,
+      "sha256": "f444ed3347d8adef5ea6573f13685c075eb630c4d07d40f497d28e6e537a0419"
+    },
+    {
+      "file": "moon-far.glb",
+      "source": "https://svs.gsfc.nasa.gov/14959/",
+      "source_download": "https://svs.gsfc.nasa.gov/vis/a010000/a014900/a014959/Moon_NASA_LRO_8k_Topo_Small.glb",
+      "input_sha256": "c4b65fb4df622a37fd75366c2ed9bf9e163e41c0fde178b3b27e31b0173e6953",
+      "source_triangles": 1015808,
+      "vertices": 78165,
+      "triangles": 150830,
+      "relative_simplification_error": 0.0006905331392772496,
+      "weld_tolerance": 1e-06,
+      "texture": "moon-color.jpg",
+      "terrain": true,
+      "bytes": 4312420,
+      "sha256": "4d3400b37bbd6210fa199da6de926efcc02b7d0b7bb4150198618bb6e18259ab"
+    }
+  ]
+}

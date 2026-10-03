@@ -1,0 +1,38 @@
+{
+  "version": "spacecraft-models/1",
+  "capturedAt": "2026-10-01T15:10:19.122119+00:00",
+  "models": [
+    {
+      "file": "iss.glb",
+      "norad": 25544,
+      "source": "https://science.nasa.gov/resource/international-space-station-3d-model/",
+      "download": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/i/ISS_stationary.glb",
+      "credit": "NASA / Visualization Technology Applications and Development (VTAD)",
+      "bytes": 44495916,
+      "sha256": "26dba905b4b7555edbcb0c5f5a61b5c18659f5166076ab27dbb0e64025759fca",
+      "meshes": 131,
+      "triangles": 247547,
+      "images": 26,
+      "geometry": "Original GLB unchanged; browser normalization only",
+      "scope": "Reference historical configuration; no current attitude or model coverage implied",
+      "usage_source": "https://science.nasa.gov/3d-resources/",
+      "guidelines": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+    },
+    {
+      "file": "hubble-a.glb",
+      "norad": 20580,
+      "source": "https://science.nasa.gov/3d-resources/hubble-space-telescope-a/",
+      "download": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/hubble-space-telescope-%28a%29/Hubble%20Space%20Telescope%20%28A%29.glb",
+      "credit": "DigitalSpace Corporation / NASA distribution",
+      "bytes": 1694988,
+      "sha256": "e5ba4de15c7d359ac8fa1ab7e286aff42dec09c0fadae3db99252587f39fa384",
+      "meshes": 1,
+      "triangles": 7672,
+      "images": 10,
+      "geometry": "Original GLB unchanged; browser normalization only",
+      "scope": "Reference historical configuration; no current attitude or model coverage implied",
+      "usage_source": "https://science.nasa.gov/3d-resources/",
+      "guidelines": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+    }
+  ]
+}

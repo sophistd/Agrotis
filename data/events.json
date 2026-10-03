@@ -1,0 +1,68 @@
+{
+  "version": "public-cases/1",
+  "items": [
+    {
+      "id": "GRB230307A",
+      "name": "GRB 230307A",
+      "kind": "observed",
+      "date": "2023-03-07",
+      "trigger_time": "2023-03-07T15:44:06.670Z",
+      "classification": "long",
+      "summary": "多仪器报告的一次极亮伽马暴，适合探索来射方向与观测几何。",
+      "localization": {
+        "ra_deg": 54.06,
+        "dec_deg": -76.61,
+        "frame": "FK5/J2000",
+        "statistical_radius_deg": 1.0,
+        "containment": "1-sigma, statistical only",
+        "systematic": "另有系统误差；统计圆不代表完整定位概率",
+        "source": "https://gcn.nasa.gov/circulars/33407"
+      },
+      "sources": [
+        "https://gcn.nasa.gov/circulars/33405",
+        "https://gcn.nasa.gov/circulars/33407",
+        "https://gcn.nasa.gov/circulars/33412"
+      ],
+      "light_curve": null,
+      "tiange_geometry": "unavailable",
+      "tiange_detection": "unknown",
+      "geometry_explanation": "天格历史轨道与姿态未接入，场景只能进行明确标注的模型演示。"
+    },
+    {
+      "id": "GRB170817A",
+      "name": "GRB 170817A",
+      "kind": "observed",
+      "date": "2017-08-17",
+      "trigger_time": null,
+      "classification": "short",
+      "summary": "短伽马暴与引力波联合观测的多信使案例。",
+      "localization": null,
+      "sources": [
+        "https://gcn.nasa.gov/circulars/21528",
+        "https://fermi.gsfc.nasa.gov/fermi10/fridays/08172018.html"
+      ],
+      "light_curve": null,
+      "tiange_geometry": "unavailable",
+      "tiange_detection": "not-launched",
+      "geometry_explanation": "事件发生在天宁双星 2023 年发射之前，不能显示其参与了历史观测。"
+    },
+    {
+      "id": "GRB221009A",
+      "name": "GRB 221009A",
+      "kind": "observed",
+      "date": "2022-10-09",
+      "trigger_time": null,
+      "classification": "long",
+      "summary": "极亮伽马暴造成仪器饱和，适合理解测量限制与坏时间区间。",
+      "localization": null,
+      "sources": [
+        "https://fermi.gsfc.nasa.gov/ssc/data/analysis/grb221009a.html",
+        "https://science.nasa.gov/science-research/astrophysics/gamma-ray-bursts/nasas-fermi-finds-new-feature-in-brightest-gamma-ray-burst-yet-seen/"
+      ],
+      "light_curve": null,
+      "tiange_geometry": "unavailable",
+      "tiange_detection": "not-launched",
+      "geometry_explanation": "天宁双星尚未发射；部分 Fermi 数据受饱和影响，不能绘制虚构完整观测曲线。"
+    }
+  ]
+}

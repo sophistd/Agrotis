@@ -1,0 +1,128 @@
+{
+  "kind": "local-integer-translation-diagnostic",
+  "sourceSha256": "3aff54e260f0421098bec61df86a6f7079a13c2397565565f7a24b65510570de",
+  "windowPixels": [
+    25,
+    25
+  ],
+  "searchRadiusPixels": 8,
+  "samples": [
+    {
+      "center": [
+        50,
+        60
+      ],
+      "bestOffsetPixels": [
+        0,
+        0
+      ],
+      "normalizedCorrelation": 0.91063218
+    },
+    {
+      "center": [
+        95,
+        60
+      ],
+      "bestOffsetPixels": [
+        0,
+        0
+      ],
+      "normalizedCorrelation": 0.88524386
+    },
+    {
+      "center": [
+        130,
+        75
+      ],
+      "bestOffsetPixels": [
+        0,
+        0
+      ],
+      "normalizedCorrelation": 0.88439348
+    },
+    {
+      "center": [
+        380,
+        75
+      ],
+      "bestOffsetPixels": [
+        0,
+        0
+      ],
+      "normalizedCorrelation": 0.83988478
+    },
+    {
+      "center": [
+        460,
+        45
+      ],
+      "bestOffsetPixels": [
+        0,
+        0
+      ],
+      "normalizedCorrelation": 0.70832681
+    },
+    {
+      "center": [
+        460,
+        260
+      ],
+      "bestOffsetPixels": [
+        0,
+        0
+      ],
+      "normalizedCorrelation": 0.87921959
+    },
+    {
+      "center": [
+        470,
+        320
+      ],
+      "bestOffsetPixels": [
+        0,
+        0
+      ],
+      "normalizedCorrelation": 0.8548677
+    },
+    {
+      "center": [
+        370,
+        345
+      ],
+      "bestOffsetPixels": [
+        0,
+        0
+      ],
+      "normalizedCorrelation": 0.81596012
+    },
+    {
+      "center": [
+        425,
+        360
+      ],
+      "bestOffsetPixels": [
+        0,
+        0
+      ],
+      "normalizedCorrelation": 0.89094245
+    },
+    {
+      "center": [
+        500,
+        370
+      ],
+      "bestOffsetPixels": [
+        0,
+        0
+      ],
+      "normalizedCorrelation": 0.90336469
+    }
+  ],
+  "method": "人工选定10处固定基岩纹理；减去各窗口均值后，以归一化互相关寻找±8像素内最佳整数平移。未修改、重配准或重采样影像。",
+  "limits": [
+    "此结果只描述所选窗口的整数平移匹配。",
+    "零整数位移不表示零配准误差，也不构成亚像素、全图或实地精度验证。",
+    "官方未提供本发布图的残余配准误差、正射误差与总测量误差。"
+  ],
+  "officialRegistrationUncertaintyMeters": null
+}

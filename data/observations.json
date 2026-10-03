@@ -1,0 +1,1570 @@
+{
+  "version": "public-observations/1",
+  "captured_at": "2026-10-01T14:47:10.736437+00:00",
+  "last_attempt_at": "2026-10-01T14:47:10.736437+00:00",
+  "refresh_after_seconds": 3600,
+  "objects": [
+    {
+      "id": "earth",
+      "domain": "earth",
+      "name": "地球",
+      "description": "地表、海洋与大气；自然事件目录与直接卫星影像分别标识。"
+    },
+    {
+      "id": "moon",
+      "domain": "moon",
+      "name": "月球",
+      "description": "月面与撞击羽流；使用实际月球任务或望远镜记录。"
+    },
+    {
+      "id": "meteoroids",
+      "domain": "meteors",
+      "name": "大气入射体",
+      "description": "这里的火流星是大气发光事件；陨石是到达地面的残余物，当前没有回收样品目录。"
+    },
+    {
+      "id": "2i-borisov",
+      "domain": "comets",
+      "name": "2I/Borisov",
+      "description": "星际彗星；哈勃的公开观测日期为2019-10-12，不代表当前位置或当前可见性。"
+    }
+  ],
+  "observers": [
+    {
+      "id": "terra-modis",
+      "name": "Terra / MODIS",
+      "norad_id": 25994,
+      "domains": [
+        "earth"
+      ],
+      "description": "可见光与红外成像，用于地表、云、海洋和火灾产品。",
+      "source": "https://modis.gsfc.nasa.gov/about/"
+    },
+    {
+      "id": "aqua-modis",
+      "name": "Aqua / MODIS",
+      "norad_id": 27424,
+      "domains": [
+        "earth"
+      ],
+      "description": "MODIS 多波段成像；亚马孙火灾案例有明确仪器署名。",
+      "source": "https://science.nasa.gov/mission/aqua/modis/"
+    },
+    {
+      "id": "suomi-viirs",
+      "name": "Suomi NPP / VIIRS",
+      "norad_id": 37849,
+      "domains": [
+        "earth"
+      ],
+      "description": "可见光与红外地球成像，案例来源明确列出 VIIRS。",
+      "source": "https://science.nasa.gov/earth/earth-observatory/fires-in-brazil-145464/"
+    },
+    {
+      "id": "hst-acs",
+      "name": "哈勃 / ACS-HRC（历史观测）",
+      "norad_id": 20580,
+      "domains": [
+        "moon"
+      ],
+      "description": "2005 年月面紫外和可见光观测；历史仪器能力不等于当前仪器仍工作。",
+      "source": "https://science.nasa.gov/asset/hubble/aristarchus-plateau-on-the-moon/"
+    },
+    {
+      "id": "hst-wfc3",
+      "name": "哈勃 / WFC3-UVIS",
+      "norad_id": 20580,
+      "domains": [
+        "comets"
+      ],
+      "description": "公开案例记录了彗星核周围的尘埃彗发，未分辨出彗核。",
+      "source": "https://science.nasa.gov/asset/hubble/comet-2iborisov/"
+    },
+    {
+      "id": "lro-lamp",
+      "name": "LRO / LAMP",
+      "norad_id": null,
+      "domains": [
+        "moon"
+      ],
+      "description": "月球轨道紫外成像光谱仪；观测了 LCROSS 撞击产生的稀薄蒸气云。",
+      "source": "https://svs.gsfc.nasa.gov/3785/"
+    },
+    {
+      "id": "goes16-glm",
+      "name": "GOES-16 / GLM",
+      "norad_id": 41866,
+      "domains": [
+        "earth",
+        "meteors"
+      ],
+      "description": "GOES-R 系列闪电成像仪具有记录火流星闪光的能力；能力说明不代表这些 CNEOS 事件已与该星匹配。",
+      "source": "https://www.nesdis.noaa.gov/our-satellites/currently-flying/goes-east-west/geostationary-lightning-mapper-glm"
+    },
+    {
+      "id": "goes17-glm",
+      "name": "GOES-17 / GLM",
+      "norad_id": 43226,
+      "domains": [
+        "earth",
+        "meteors"
+      ],
+      "description": "GOES-R 系列闪电成像仪具有记录火流星闪光的能力；能力说明不代表这些 CNEOS 事件已与该星匹配。",
+      "source": "https://www.nesdis.noaa.gov/our-satellites/currently-flying/goes-east-west/geostationary-lightning-mapper-glm"
+    },
+    {
+      "id": "goes18-glm",
+      "name": "GOES-18 / GLM",
+      "norad_id": 51850,
+      "domains": [
+        "earth",
+        "meteors"
+      ],
+      "description": "GOES-R 系列闪电成像仪具有记录火流星闪光的能力；能力说明不代表这些 CNEOS 事件已与该星匹配。",
+      "source": "https://www.nesdis.noaa.gov/our-satellites/currently-flying/goes-east-west/geostationary-lightning-mapper-glm"
+    },
+    {
+      "id": "goes19-glm",
+      "name": "GOES-19 / GLM",
+      "norad_id": 60133,
+      "domains": [
+        "earth",
+        "meteors"
+      ],
+      "description": "GOES-R 系列闪电成像仪具有记录火流星闪光的能力；能力说明不代表这些 CNEOS 事件已与该星匹配。",
+      "source": "https://www.nesdis.noaa.gov/our-satellites/currently-flying/goes-east-west/geostationary-lightning-mapper-glm"
+    }
+  ],
+  "records": [
+    {
+      "id": "AQUA-AMAZON-2019",
+      "domain": "earth",
+      "object_id": "earth",
+      "title": "亚马孙火灾 · MODIS / VIIRS",
+      "category": "卫星影像",
+      "observed_at": "2019-08-11",
+      "date_precision": "day",
+      "date_label": "2019-08-11—13",
+      "kind": "observed",
+      "summary": "Aqua 的 MODIS 记录了巴西亚马孙多个州的火灾；公开图件还引用 Suomi NPP 的 VIIRS 数据。",
+      "observer_ids": [
+        "aqua-modis",
+        "suomi-viirs"
+      ],
+      "observer_label": "Aqua / MODIS / Suomi NPP / VIIRS",
+      "location": null,
+      "metrics": [],
+      "source_id": "curated",
+      "sources": [
+        {
+          "label": "原始任务观测资料",
+          "url": "https://science.nasa.gov/earth/earth-observatory/fires-in-brazil-145464/"
+        }
+      ],
+      "image": null,
+      "note": "这是历史卫星影像，未将图像覆盖区域转换成虚构单一落点；发布日期与成像日期分别处理。"
+    },
+    {
+      "id": "HST-MOON-2005",
+      "domain": "moon",
+      "object_id": "moon",
+      "title": "月面 · 阿里斯塔克斯高原",
+      "category": "月面成像",
+      "observed_at": "2005-08-21",
+      "date_precision": "day",
+      "date_label": "2005-08-21",
+      "kind": "observed",
+      "summary": "哈勃 ACS/HRC 的紫外与可见光月面观测，公开资料列出了仪器、日期和滤镜。",
+      "observer_ids": [
+        "hst-acs"
+      ],
+      "observer_label": "哈勃 / ACS-HRC（历史观测）",
+      "location": null,
+      "metrics": [],
+      "source_id": "curated",
+      "sources": [
+        {
+          "label": "原始任务观测资料",
+          "url": "https://science.nasa.gov/asset/hubble/aristarchus-plateau-on-the-moon/"
+        }
+      ],
+      "image": {
+        "url": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2005/10/STScI-01EVVM99Q8FR7PJE2XWCWGHHCD.tif/jcr:content/renditions/694x800.jpg",
+        "credit": "NASA, ESA and J. Garvin (NASA/GSFC)",
+        "caption": "ACS/HRC 观测图 · 2005-08-21"
+      },
+      "note": "这是月面观测，不是一次新的自然撞击；ACS/HRC 为历史仪器通道。"
+    },
+    {
+      "id": "LRO-LCROSS-2009",
+      "domain": "moon",
+      "object_id": "moon",
+      "title": "月球南极 · LCROSS 撞击羽流",
+      "category": "人为撞击",
+      "observed_at": "2009-10-09T11:31:00Z",
+      "date_precision": "minute",
+      "date_label": "2009-10-09",
+      "kind": "observed",
+      "summary": "LRO 的 LAMP 仪器观测了 LCROSS 撞击后扩张的稀薄蒸气云。",
+      "observer_ids": [
+        "lro-lamp"
+      ],
+      "observer_label": "LRO / LAMP",
+      "location": null,
+      "metrics": [],
+      "source_id": "curated",
+      "sources": [
+        {
+          "label": "原始任务观测资料",
+          "url": "https://svs.gsfc.nasa.gov/3785/"
+        }
+      ],
+      "image": null,
+      "note": "人为撞击而非天然陨石撞击；原始 LAMP 序列仍在来源站点，本 Demo 未导入数值时间序列。"
+    },
+    {
+      "id": "HST-BORISOV-2019",
+      "domain": "comets",
+      "object_id": "2i-borisov",
+      "title": "2I/Borisov · 星际彗星",
+      "category": "望远镜成像",
+      "observed_at": "2019-10-12",
+      "date_precision": "day",
+      "date_label": "2019-10-12",
+      "kind": "observed",
+      "summary": "哈勃 WFC3/UVIS 拍摄了这颗星际彗星的尘埃彗发；彗核本身小到未被分辨。",
+      "observer_ids": [
+        "hst-wfc3"
+      ],
+      "observer_label": "哈勃 / WFC3-UVIS",
+      "location": null,
+      "metrics": [
+        {
+          "label": "当时距地球",
+          "value": 2.782,
+          "unit": "AU",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "curated",
+      "sources": [
+        {
+          "label": "原始任务观测资料",
+          "url": "https://science.nasa.gov/asset/hubble/comet-2iborisov/"
+        }
+      ],
+      "image": {
+        "url": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2019/10/STScI-01EVSV5X1M6CZKJHN45E9REX8A.tif/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "credit": "NASA, ESA, and D. Jewitt (UCLA)",
+        "caption": "WFC3/UVIS 观测合成图 · 2019-10-12"
+      },
+      "note": "图像由灰度曝光赋蓝色合成。距离对应2019年观测时刻；尚未接入当前彗星星历。"
+    },
+    {
+      "id": "FIREBALL-2026-09-15T112613Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-09-15 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-09-15T11:26:13Z",
+      "date_precision": "second",
+      "date_label": "2026-09-15",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": -37.6,
+        "longitude": -161.6,
+        "altitude_km": 37.0,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 2.2,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.079,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 37.0,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-09-11T101803Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-09-11 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-09-11T10:18:03Z",
+      "date_precision": "second",
+      "date_label": "2026-09-11",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": -0.2,
+        "longitude": -129.6,
+        "altitude_km": 70.0,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 6.1,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.2,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 70.0,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-09-11T011211Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-09-11 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-09-11T01:12:11Z",
+      "date_precision": "second",
+      "date_label": "2026-09-11",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": 54.4,
+        "longitude": -100.1,
+        "altitude_km": 38.0,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 24.6,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.67,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 38.0,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-09-10T052222Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-09-10 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-09-10T05:22:22Z",
+      "date_precision": "second",
+      "date_label": "2026-09-10",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": -19.3,
+        "longitude": -28.1,
+        "altitude_km": 33.6,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 11.1,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.33,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 33.6,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-08-15T073240Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-08-15 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-08-15T07:32:40Z",
+      "date_precision": "second",
+      "date_label": "2026-08-15",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": 4.0,
+        "longitude": -115.4,
+        "altitude_km": 37.0,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 3.9,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.13,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 37.0,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-08-14T074836Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-08-14 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-08-14T07:48:36Z",
+      "date_precision": "second",
+      "date_label": "2026-08-14",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": 47.7,
+        "longitude": -119.4,
+        "altitude_km": 30.0,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 3.8,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.13,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 30.0,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-08-01T174348Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-08-01 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-08-01T17:43:48Z",
+      "date_precision": "second",
+      "date_label": "2026-08-01",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": -19.5,
+        "longitude": 176.2,
+        "altitude_km": 45.0,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 2.9,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.1,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 45.0,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-07-21T011445Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-07-21 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-07-21T01:14:45Z",
+      "date_precision": "second",
+      "date_label": "2026-07-21",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": 9.4,
+        "longitude": -57.4,
+        "altitude_km": 31.5,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 3.2,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.11,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 31.5,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-06-11T020058Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-06-11 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-06-11T02:00:58Z",
+      "date_precision": "second",
+      "date_label": "2026-06-11",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": -18.7,
+        "longitude": 16.1,
+        "altitude_km": 33.0,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 3.2,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.11,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 33.0,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-05-30T180623Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-05-30 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-05-30T18:06:23Z",
+      "date_precision": "second",
+      "date_label": "2026-05-30",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": 42.0,
+        "longitude": -70.5,
+        "altitude_km": 32.0,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 42.1,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 1.1,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 32.0,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-05-21T021551Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-05-21 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-05-21T02:15:51Z",
+      "date_precision": "second",
+      "date_label": "2026-05-21",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": 46.6,
+        "longitude": 133.1,
+        "altitude_km": 31.5,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 3.5,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.12,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 31.5,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-05-10T165737Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-05-10 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-05-10T16:57:37Z",
+      "date_precision": "second",
+      "date_label": "2026-05-10",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": -45.6,
+        "longitude": -109.8,
+        "altitude_km": 32.7,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 6.0,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.19,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 32.7,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-05-07T055203Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-05-07 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-05-07T05:52:03Z",
+      "date_precision": "second",
+      "date_label": "2026-05-07",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": 32.5,
+        "longitude": -36.8,
+        "altitude_km": 36.0,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 6.4,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.2,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 36.0,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-04-29T140039Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-04-29 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-04-29T14:00:39Z",
+      "date_precision": "second",
+      "date_label": "2026-04-29",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": -81.0,
+        "longitude": 133.9,
+        "altitude_km": 28.7,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 4.8,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.16,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 28.7,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-04-08T015847Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-04-08 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-04-08T01:58:47Z",
+      "date_precision": "second",
+      "date_label": "2026-04-08",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": 13.4,
+        "longitude": -170.2,
+        "altitude_km": 62.0,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 2.9,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.1,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 62.0,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "FIREBALL-2026-04-01T235935Z",
+      "domain": "meteors",
+      "object_id": "meteoroids",
+      "title": "2026-04-01 · 火流星",
+      "category": "大气入射",
+      "observed_at": "2026-04-01T23:59:35Z",
+      "date_precision": "second",
+      "date_label": "2026-04-01",
+      "kind": "reported",
+      "summary": "美国政府传感器报告的火流星峰值亮度事件，JPL/CNEOS 提供公开记录。",
+      "observer_ids": [],
+      "observer_label": "美国政府传感器，具体卫星身份未公开",
+      "location": {
+        "latitude": 57.9,
+        "longitude": -158.6,
+        "altitude_km": 37.0,
+        "label": "峰值亮度位置，非陨石落点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [
+        {
+          "label": "辐射能量",
+          "value": 2.2,
+          "unit": "×10¹⁰ J",
+          "kind": "reported"
+        },
+        {
+          "label": "估算撞击能量",
+          "value": 0.079,
+          "unit": "kt TNT",
+          "kind": "estimated"
+        },
+        {
+          "label": "峰值亮度高度",
+          "value": 37.0,
+          "unit": "km",
+          "kind": "reported"
+        }
+      ],
+      "source_id": "cneos",
+      "sources": [
+        {
+          "label": "CNEOS 火流星目录",
+          "url": "https://cneos.jpl.nasa.gov/fireballs/"
+        },
+        {
+          "label": "API 与字段定义",
+          "url": "https://ssd-api.jpl.nasa.gov/doc/fireball.html"
+        }
+      ],
+      "image": null,
+      "note": "火流星记录不是陨石回收或落点记录；能量有估算成分，不把未披露的传感器指定为 GOES。"
+    },
+    {
+      "id": "EONET_24962",
+      "domain": "earth",
+      "object_id": "earth",
+      "title": "Tropical Storm Choi-wan",
+      "category": "风暴",
+      "observed_at": "2026-09-30T12:00:00Z",
+      "date_precision": "source timestamp",
+      "date_label": "2026-09-30",
+      "kind": "reported",
+      "summary": "NASA EONET 汇编的自然事件，详细判断与位置来源可追溯到原始报告。",
+      "observer_ids": [],
+      "observer_label": "见原始报告，未统一披露卫星仪器",
+      "location": {
+        "latitude": 16.0,
+        "longitude": 150.8,
+        "altitude_km": null,
+        "label": "EONET 事件参考点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [],
+      "source_id": "eonet",
+      "sources": [
+        {
+          "label": "NASA EONET 原始记录",
+          "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24962"
+        },
+        {
+          "label": "JTWC",
+          "url": "https://www.metoc.navy.mil/jtwc/products/wp2626.tcw"
+        }
+      ],
+      "image": null,
+      "note": "事件汇编不等于某颗卫星的直接观测；多边形区域没有被替换成虚构的点位。"
+    },
+    {
+      "id": "EONET_24964",
+      "domain": "earth",
+      "object_id": "earth",
+      "title": "Wildfire SAN FRANCISCO 2, Starr, Texas",
+      "category": "野火",
+      "observed_at": "2026-09-30T08:56:00Z",
+      "date_precision": "source timestamp",
+      "date_label": "2026-09-30",
+      "kind": "reported",
+      "summary": "NASA EONET 汇编的自然事件，详细判断与位置来源可追溯到原始报告。",
+      "observer_ids": [],
+      "observer_label": "见原始报告，未统一披露卫星仪器",
+      "location": {
+        "latitude": 26.286667,
+        "longitude": -98.692222,
+        "altitude_km": null,
+        "label": "EONET 事件参考点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [],
+      "source_id": "eonet",
+      "sources": [
+        {
+          "label": "NASA EONET 原始记录",
+          "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24964"
+        },
+        {
+          "label": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-TXRGR-000402"
+        }
+      ],
+      "image": null,
+      "note": "事件汇编不等于某颗卫星的直接观测；多边形区域没有被替换成虚构的点位。"
+    },
+    {
+      "id": "EONET_24963",
+      "domain": "earth",
+      "object_id": "earth",
+      "title": "Wildfire Hatch Grade, Walla Walla, Washington",
+      "category": "野火",
+      "observed_at": "2026-09-29T19:50:00Z",
+      "date_precision": "source timestamp",
+      "date_label": "2026-09-29",
+      "kind": "reported",
+      "summary": "NASA EONET 汇编的自然事件，详细判断与位置来源可追溯到原始报告。",
+      "observer_ids": [],
+      "observer_label": "见原始报告，未统一披露卫星仪器",
+      "location": {
+        "latitude": 46.0322,
+        "longitude": -118.8588,
+        "altitude_km": null,
+        "label": "EONET 事件参考点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [],
+      "source_id": "eonet",
+      "sources": [
+        {
+          "label": "NASA EONET 原始记录",
+          "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24963"
+        },
+        {
+          "label": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-WAWFS-000664"
+        }
+      ],
+      "image": null,
+      "note": "事件汇编不等于某颗卫星的直接观测；多边形区域没有被替换成虚构的点位。"
+    },
+    {
+      "id": "EONET_24965",
+      "domain": "earth",
+      "object_id": "earth",
+      "title": "Wildfire 3 ALPHA SIERRA, Broward, Florida",
+      "category": "野火",
+      "observed_at": "2026-09-28T21:53:00Z",
+      "date_precision": "source timestamp",
+      "date_label": "2026-09-28",
+      "kind": "reported",
+      "summary": "NASA EONET 汇编的自然事件，详细判断与位置来源可追溯到原始报告。",
+      "observer_ids": [],
+      "observer_label": "见原始报告，未统一披露卫星仪器",
+      "location": {
+        "latitude": 26.1341667,
+        "longitude": -80.5952778,
+        "altitude_km": null,
+        "label": "EONET 事件参考点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [],
+      "source_id": "eonet",
+      "sources": [
+        {
+          "label": "NASA EONET 原始记录",
+          "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24965"
+        },
+        {
+          "label": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-FLFLS-1800153"
+        }
+      ],
+      "image": null,
+      "note": "事件汇编不等于某颗卫星的直接观测；多边形区域没有被替换成虚构的点位。"
+    },
+    {
+      "id": "EONET_24938",
+      "domain": "earth",
+      "object_id": "earth",
+      "title": "Flood in France 1104202",
+      "category": "洪水",
+      "observed_at": "2026-09-28T20:00:00Z",
+      "date_precision": "source timestamp",
+      "date_label": "2026-09-28",
+      "kind": "reported",
+      "summary": "NASA EONET 汇编的自然事件，详细判断与位置来源可追溯到原始报告。",
+      "observer_ids": [],
+      "observer_label": "见原始报告，未统一披露卫星仪器",
+      "location": null,
+      "metrics": [],
+      "source_id": "eonet",
+      "sources": [
+        {
+          "label": "NASA EONET 原始记录",
+          "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24938"
+        },
+        {
+          "label": "GDACS",
+          "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104202"
+        }
+      ],
+      "image": null,
+      "note": "事件汇编不等于某颗卫星的直接观测；多边形区域没有被替换成虚构的点位。"
+    },
+    {
+      "id": "EONET_24942",
+      "domain": "earth",
+      "object_id": "earth",
+      "title": "Wildfire in Brazil 1032493",
+      "category": "野火",
+      "observed_at": "2026-09-28T19:00:00Z",
+      "date_precision": "source timestamp",
+      "date_label": "2026-09-28",
+      "kind": "reported",
+      "summary": "NASA EONET 汇编的自然事件，详细判断与位置来源可追溯到原始报告。",
+      "observer_ids": [],
+      "observer_label": "见原始报告，未统一披露卫星仪器",
+      "location": {
+        "latitude": -12.016839472685,
+        "longitude": -50.956197006588,
+        "altitude_km": null,
+        "label": "EONET 事件参考点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [],
+      "source_id": "eonet",
+      "sources": [
+        {
+          "label": "NASA EONET 原始记录",
+          "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24942"
+        },
+        {
+          "label": "GDACS",
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032493"
+        }
+      ],
+      "image": null,
+      "note": "事件汇编不等于某颗卫星的直接观测；多边形区域没有被替换成虚构的点位。"
+    },
+    {
+      "id": "EONET_24943",
+      "domain": "earth",
+      "object_id": "earth",
+      "title": "Wildfire in Australia 1032496",
+      "category": "野火",
+      "observed_at": "2026-09-28T19:00:00Z",
+      "date_precision": "source timestamp",
+      "date_label": "2026-09-28",
+      "kind": "reported",
+      "summary": "NASA EONET 汇编的自然事件，详细判断与位置来源可追溯到原始报告。",
+      "observer_ids": [],
+      "observer_label": "见原始报告，未统一披露卫星仪器",
+      "location": {
+        "latitude": -17.191224257721,
+        "longitude": 134.84122956697,
+        "altitude_km": null,
+        "label": "EONET 事件参考点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [],
+      "source_id": "eonet",
+      "sources": [
+        {
+          "label": "NASA EONET 原始记录",
+          "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24943"
+        },
+        {
+          "label": "GDACS",
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032496"
+        }
+      ],
+      "image": null,
+      "note": "事件汇编不等于某颗卫星的直接观测；多边形区域没有被替换成虚构的点位。"
+    },
+    {
+      "id": "EONET_24909",
+      "domain": "earth",
+      "object_id": "earth",
+      "title": "Tropical Storm Hanna",
+      "category": "风暴",
+      "observed_at": "2026-09-28T15:00:00Z",
+      "date_precision": "source timestamp",
+      "date_label": "2026-09-28",
+      "kind": "reported",
+      "summary": "NASA EONET 汇编的自然事件，详细判断与位置来源可追溯到原始报告。",
+      "observer_ids": [],
+      "observer_label": "见原始报告，未统一披露卫星仪器",
+      "location": {
+        "latitude": 36.6,
+        "longitude": -50.4,
+        "altitude_km": null,
+        "label": "EONET 事件参考点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [],
+      "source_id": "eonet",
+      "sources": [
+        {
+          "label": "NASA EONET 原始记录",
+          "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24909"
+        },
+        {
+          "label": "NOAA_NHC",
+          "url": "https://www.nhc.noaa.gov/archive/2026/HANNA.shtml"
+        }
+      ],
+      "image": null,
+      "note": "事件汇编不等于某颗卫星的直接观测；多边形区域没有被替换成虚构的点位。"
+    },
+    {
+      "id": "EONET_24939",
+      "domain": "earth",
+      "object_id": "earth",
+      "title": "Flood in Spain 1104199",
+      "category": "洪水",
+      "observed_at": "2026-09-27T20:00:00Z",
+      "date_precision": "source timestamp",
+      "date_label": "2026-09-27",
+      "kind": "reported",
+      "summary": "NASA EONET 汇编的自然事件，详细判断与位置来源可追溯到原始报告。",
+      "observer_ids": [],
+      "observer_label": "见原始报告，未统一披露卫星仪器",
+      "location": null,
+      "metrics": [],
+      "source_id": "eonet",
+      "sources": [
+        {
+          "label": "NASA EONET 原始记录",
+          "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24939"
+        },
+        {
+          "label": "GDACS",
+          "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104199"
+        }
+      ],
+      "image": null,
+      "note": "事件汇编不等于某颗卫星的直接观测；多边形区域没有被替换成虚构的点位。"
+    },
+    {
+      "id": "EONET_24912",
+      "domain": "earth",
+      "object_id": "earth",
+      "title": "Wildfire in Australia 1032470",
+      "category": "野火",
+      "observed_at": "2026-09-27T19:00:00Z",
+      "date_precision": "source timestamp",
+      "date_label": "2026-09-27",
+      "kind": "reported",
+      "summary": "NASA EONET 汇编的自然事件，详细判断与位置来源可追溯到原始报告。",
+      "observer_ids": [],
+      "observer_label": "见原始报告，未统一披露卫星仪器",
+      "location": {
+        "latitude": -17.427998289542,
+        "longitude": 134.92984129427,
+        "altitude_km": null,
+        "label": "EONET 事件参考点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [],
+      "source_id": "eonet",
+      "sources": [
+        {
+          "label": "NASA EONET 原始记录",
+          "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24912"
+        },
+        {
+          "label": "GDACS",
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032470"
+        }
+      ],
+      "image": null,
+      "note": "事件汇编不等于某颗卫星的直接观测；多边形区域没有被替换成虚构的点位。"
+    },
+    {
+      "id": "EONET_24913",
+      "domain": "earth",
+      "object_id": "earth",
+      "title": "Wildfire in Brazil 1032471",
+      "category": "野火",
+      "observed_at": "2026-09-27T19:00:00Z",
+      "date_precision": "source timestamp",
+      "date_label": "2026-09-27",
+      "kind": "reported",
+      "summary": "NASA EONET 汇编的自然事件，详细判断与位置来源可追溯到原始报告。",
+      "observer_ids": [],
+      "observer_label": "见原始报告，未统一披露卫星仪器",
+      "location": {
+        "latitude": -10.942577798946,
+        "longitude": -50.686488429016,
+        "altitude_km": null,
+        "label": "EONET 事件参考点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [],
+      "source_id": "eonet",
+      "sources": [
+        {
+          "label": "NASA EONET 原始记录",
+          "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24913"
+        },
+        {
+          "label": "GDACS",
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032471"
+        }
+      ],
+      "image": null,
+      "note": "事件汇编不等于某颗卫星的直接观测；多边形区域没有被替换成虚构的点位。"
+    },
+    {
+      "id": "EONET_24914",
+      "domain": "earth",
+      "object_id": "earth",
+      "title": "Wildfire in Australia 1032478",
+      "category": "野火",
+      "observed_at": "2026-09-27T19:00:00Z",
+      "date_precision": "source timestamp",
+      "date_label": "2026-09-27",
+      "kind": "reported",
+      "summary": "NASA EONET 汇编的自然事件，详细判断与位置来源可追溯到原始报告。",
+      "observer_ids": [],
+      "observer_label": "见原始报告，未统一披露卫星仪器",
+      "location": {
+        "latitude": -16.62348013606,
+        "longitude": 130.09655186554,
+        "altitude_km": null,
+        "label": "EONET 事件参考点",
+        "frame": "Earth geographic"
+      },
+      "metrics": [],
+      "source_id": "eonet",
+      "sources": [
+        {
+          "label": "NASA EONET 原始记录",
+          "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24914"
+        },
+        {
+          "label": "GDACS",
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032478"
+        }
+      ],
+      "image": null,
+      "note": "事件汇编不等于某颗卫星的直接观测；多边形区域没有被替换成虚构的点位。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "curated",
+      "url": "https://science.nasa.gov/",
+      "captured_at": "2026-10-01T11:06:48.861723+00:00",
+      "status": "verified-primary-pages",
+      "count": 4
+    },
+    {
+      "id": "eonet",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=all&limit=12&start=2026-07-03&end=2026-10-01",
+      "captured_at": "2026-10-01T14:47:10.736437+00:00",
+      "status": "available",
+      "count": 12,
+      "sha256": "10ebc47f8842233429ebbed9413ba97e3d771329ae2a437de41a07521fc38a71"
+    },
+    {
+      "id": "cneos",
+      "url": "https://ssd-api.jpl.nasa.gov/fireball.api?limit=16&sort=-date",
+      "captured_at": "2026-10-01T11:06:48.861723+00:00",
+      "status": "refresh_failed",
+      "count": 16,
+      "sha256": "37a7b26fc2f956b632dff0a4297ee313819a77feca7fd13799ef3883c67d0aa3",
+      "error": "URLError",
+      "last_attempt_at": "2026-10-01T14:47:10.736437+00:00"
+    }
+  ],
+  "limits": [
+    "不是实时遥测",
+    "仪器能力不等于具体事件探测",
+    "CNEOS 未披露每条记录的卫星身份",
+    "无陨石回收目录或当前彗星星历"
+  ],
+  "refresh_status": "refreshed"
+}

@@ -1,0 +1,52 @@
+body[data-view='events'][data-event-page='space'][data-light-guide='true'] #stage{visibility:hidden;pointer-events:none}
+.light-guide{position:relative;background:#07090c;min-height:calc(100svh - 86px);padding:30px 4.2vw 40px;pointer-events:auto;color:#f5f5f3}
+.light-guide-header{display:flex;justify-content:space-between;align-items:flex-start;gap:18px}
+.light-guide-header h1{font-size:clamp(28px,3vw,44px);letter-spacing:.04em;margin-top:12px}
+.light-guide-header .tool-link{white-space:nowrap;min-height:44px}
+.light-guide-workspace{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:6vw;align-items:center;max-width:1500px;margin:32px auto 0}
+.light-guide-scene{margin:0;min-width:0}
+.light-guide-scene svg{display:block;width:100%;max-height:540px}
+.light-guide-scene text{fill:#b8bcc2;font-family:inherit;font-size:12px}
+.light-guide-scene figcaption{display:flex;justify-content:space-between;gap:16px;color:#aaa;font-size:11px;padding:20px 0;border-top:1px solid #303236}
+.light-guide-scene figcaption span{font-size:10px}
+.light-guide-card{max-width:470px;min-width:0}
+.light-guide-progress{font-size:11px;letter-spacing:.1em;color:#b8bcc2;display:flex;justify-content:space-between;gap:10px}
+.light-guide-progress span{font-size:10px;letter-spacing:0}
+.light-guide-card h2{font-size:clamp(25px,2.3vw,34px);line-height:1.5;margin:20px 0 12px}
+.light-guide .light-guide-card p{color:#b8bcc2;font-size:13px;line-height:1.85}
+.light-guide-choices{display:flex;gap:8px;border:0;padding:0;margin:22px 0 14px;min-width:0}
+.light-guide-choices legend{font-size:12px;margin-bottom:12px;color:#ddd}
+.light-guide-choices button{flex:1;min-height:48px;font-size:18px;padding:10px}
+.light-guide button:disabled{opacity:.45;cursor:not-allowed}
+.light-guide-feedback{margin:15px 0;font-size:12px;line-height:1.8;color:#b8bcc2}
+.light-guide-feedback strong{font-weight:400;display:block;color:#fff;margin-bottom:6px}
+.light-guide-control{border-top:1px solid #303236;margin-top:22px;padding-top:16px}
+.light-guide-control label{display:flex;align-items:center;justify-content:space-between;font-size:12px;gap:12px}
+.light-guide-control output{font-size:25px;color:#fff;white-space:nowrap}
+.light-guide-control input{width:100%;min-height:44px;accent-color:#fff;margin:4px 0;cursor:ew-resize}
+.light-guide-control input:disabled{opacity:.45;cursor:not-allowed}
+.light-guide-ticks{display:flex;justify-content:space-between;font-size:10px;color:#999}
+.light-guide #light-guide-control-help{font-size:10px;margin-top:10px}
+.light-guide-quantities{display:grid;grid-template-columns:1fr 1fr;margin-top:20px;gap:18px}
+.light-guide-quantities small,.light-guide-quantities span{display:block;font-size:10px;color:#aaa}
+.light-guide-quantities strong{font-size:33px;font-weight:400;display:block;line-height:1.5}
+.light-guide-meter{height:4px;background:#303236;margin:8px 0}
+.light-guide-meter i{display:block;height:100%;background:#eee}
+.light-guide .light-guide-normalization{font-size:10px;margin:14px 0 20px}
+.light-guide-actions{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.light-guide-actions>.ghost-button{margin-left:auto;min-height:48px;font-size:12px;padding:12px 14px}
+.light-guide .light-guide-takeaway{border-left:1px solid #aaa;padding-left:14px;color:#eee;font-size:15px;margin-bottom:22px}
+.light-guide-takeaway small{display:block;font-size:11px;color:#b8bcc2;margin-top:7px}
+.light-guide footer{display:flex;flex-wrap:wrap;gap:6px 18px;border-top:1px solid #303236;margin-top:22px;padding-top:6px}
+.light-guide footer .tool-link{font-size:11px;min-height:44px}
+.light-guide-source-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.moon-guide-entry{display:flex;flex-direction:column;gap:8px}
+@media(max-width:760px){
+ .moon-guide-entry .ghost-button{font-size:10px;gap:8px}.moon-guide-entry small{font-size:8px}
+ .light-guide{padding:23px 22px 35px}.light-guide-header h1{font-size:28px}.light-guide-header .mission-label{font-size:8px}.light-guide-header .tool-link{font-size:10px}
+ .light-guide-workspace{grid-template-columns:minmax(0,1fr);gap:24px;margin-top:18px}
+ .light-guide-scene svg{max-height:290px}.light-guide-scene figcaption{padding:10px 0;font-size:10px;flex-wrap:wrap;gap:5px}
+ .light-guide-card{max-width:none}.light-guide-card h2{font-size:27px;margin-top:16px}
+ .light-guide-actions>.ghost-button{font-size:11px;padding:12px}.light-guide-actions{gap:8px}
+}
+@media(prefers-reduced-motion:reduce){.light-guide *{animation:none!important;transition:none!important}}

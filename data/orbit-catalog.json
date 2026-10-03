@@ -1,0 +1,4296 @@
+{
+  "version": "public-orbits/1",
+  "captured_at": "2026-10-01T15:12:58.789523+00:00",
+  "refresh_after_seconds": 7200,
+  "last_attempt_at": "2026-10-01T15:12:58.789523+00:00",
+  "kind": "computed",
+  "position_method": "SGP4 / WGS72; TEME → GMST approximate Earth-fixed display",
+  "valid_window_hours": 72,
+  "sources": [
+    {
+      "group": "stations",
+      "label": "空间站",
+      "url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "sha256": "8bda80df5dc3efb32b39d7813681f9d260d2360bf7421c67044375a160b256c4",
+      "count": 22,
+      "status": "available"
+    },
+    {
+      "group": "science",
+      "label": "科学卫星",
+      "url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "sha256": "a982c0f296fac299548ac997425d80eeea11e64071f2c4bf3b575fe204f5af34",
+      "count": 46,
+      "status": "available"
+    },
+    {
+      "group": "weather",
+      "label": "气象卫星",
+      "url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "sha256": "bd1bc9e6ec7a0b570e82331a55f3e55d1b6b5819b909d090abadae1cd86a5994",
+      "count": 72,
+      "status": "available"
+    }
+  ],
+  "items": [
+    {
+      "norad_id": 25544,
+      "name": "ISS (ZARYA)",
+      "object_id": "1998-067A",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-10-01T02:39:00.159264Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "ISS (ZARYA)",
+        "OBJECT_ID": "1998-067A",
+        "EPOCH": "2026-10-01T02:39:00.159264",
+        "MEAN_MOTION": 15.48700165,
+        "ECCENTRICITY": 0.00069663,
+        "INCLINATION": 51.6315,
+        "RA_OF_ASC_NODE": 135.8796,
+        "ARG_OF_PERICENTER": 208.5453,
+        "MEAN_ANOMALY": 151.5154,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 25544,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 58817,
+        "BSTAR": 6.8953808e-05,
+        "MEAN_MOTION_DOT": 3.312e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 36086,
+      "name": "POISK",
+      "object_id": "2009-060A",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-10-01T02:39:00.159264Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "POISK",
+        "OBJECT_ID": "2009-060A",
+        "EPOCH": "2026-10-01T02:39:00.159264",
+        "MEAN_MOTION": 15.48700165,
+        "ECCENTRICITY": 0.00069663,
+        "INCLINATION": 51.6315,
+        "RA_OF_ASC_NODE": 135.8796,
+        "ARG_OF_PERICENTER": 208.5453,
+        "MEAN_ANOMALY": 151.5154,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 36086,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 58696,
+        "BSTAR": 6.8953808e-05,
+        "MEAN_MOTION_DOT": 3.312e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 48274,
+      "name": "CSS (TIANHE)",
+      "object_id": "2021-035A",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-09-30T18:43:05.025792Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CSS (TIANHE)",
+        "OBJECT_ID": "2021-035A",
+        "EPOCH": "2026-09-30T18:43:05.025792",
+        "MEAN_MOTION": 15.60186162,
+        "ECCENTRICITY": 0.0002425,
+        "INCLINATION": 41.4697,
+        "RA_OF_ASC_NODE": 40.7747,
+        "ARG_OF_PERICENTER": 314.4468,
+        "MEAN_ANOMALY": 45.6172,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 48274,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 30965,
+        "BSTAR": 0.00017025696,
+        "MEAN_MOTION_DOT": 0.00013951,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 49044,
+      "name": "ISS (NAUKA)",
+      "object_id": "2021-066A",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-10-01T02:39:00.159264Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "ISS (NAUKA)",
+        "OBJECT_ID": "2021-066A",
+        "EPOCH": "2026-10-01T02:39:00.159264",
+        "MEAN_MOTION": 15.48700165,
+        "ECCENTRICITY": 0.00069663,
+        "INCLINATION": 51.6315,
+        "RA_OF_ASC_NODE": 135.8796,
+        "ARG_OF_PERICENTER": 208.5453,
+        "MEAN_ANOMALY": 151.5154,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 49044,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 58700,
+        "BSTAR": 6.8953808e-05,
+        "MEAN_MOTION_DOT": 3.312e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 49271,
+      "name": "FREGAT DEB",
+      "object_id": "2011-037PF",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-09-30T08:33:07.062336Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "FREGAT DEB",
+        "OBJECT_ID": "2011-037PF",
+        "EPOCH": "2026-09-30T08:33:07.062336",
+        "MEAN_MOTION": 12.44862057,
+        "ECCENTRICITY": 0.09445031,
+        "INCLINATION": 51.6406,
+        "RA_OF_ASC_NODE": 44.9401,
+        "ARG_OF_PERICENTER": 157.5875,
+        "MEAN_ANOMALY": 206.9247,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 49271,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 23813,
+        "BSTAR": 0.014686948,
+        "MEAN_MOTION_DOT": 0.00010588,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 53239,
+      "name": "CSS (WENTIAN)",
+      "object_id": "2022-085A",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-09-30T18:43:05.025792Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CSS (WENTIAN)",
+        "OBJECT_ID": "2022-085A",
+        "EPOCH": "2026-09-30T18:43:05.025792",
+        "MEAN_MOTION": 15.60186162,
+        "ECCENTRICITY": 0.0002425,
+        "INCLINATION": 41.4697,
+        "RA_OF_ASC_NODE": 40.7747,
+        "ARG_OF_PERICENTER": 314.4468,
+        "MEAN_ANOMALY": 45.6172,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 53239,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 28823,
+        "BSTAR": 0.00017025696,
+        "MEAN_MOTION_DOT": 0.00013951,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 54216,
+      "name": "CSS (MENGTIAN)",
+      "object_id": "2022-143A",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-09-30T18:43:05.025792Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CSS (MENGTIAN)",
+        "OBJECT_ID": "2022-143A",
+        "EPOCH": "2026-09-30T18:43:05.025792",
+        "MEAN_MOTION": 15.60186162,
+        "ECCENTRICITY": 0.0002425,
+        "INCLINATION": 41.4697,
+        "RA_OF_ASC_NODE": 40.7747,
+        "ARG_OF_PERICENTER": 314.4468,
+        "MEAN_ANOMALY": 45.6172,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 54216,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 30835,
+        "BSTAR": 0.00017025696,
+        "MEAN_MOTION_DOT": 0.00013951,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 66052,
+      "name": "HRC MONOBLOCK CAMERA",
+      "object_id": "1998-067XS",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-09-30T21:12:41.223744Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "HRC MONOBLOCK CAMERA",
+        "OBJECT_ID": "1998-067XS",
+        "EPOCH": "2026-09-30T21:12:41.223744",
+        "MEAN_MOTION": 16.04174532,
+        "ECCENTRICITY": 0.00068301,
+        "INCLINATION": 51.6102,
+        "RA_OF_ASC_NODE": 87.4266,
+        "ARG_OF_PERICENTER": 270.9253,
+        "MEAN_ANOMALY": 89.0976,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 66052,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 5476,
+        "BSTAR": 0.00054617615,
+        "MEAN_MOTION_DOT": 0.00365694,
+        "MEAN_MOTION_DDOT": 7.140612e-05
+      }
+    },
+    {
+      "norad_id": 66515,
+      "name": "SZ-21 MODULE",
+      "object_id": "2025-246C",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-09-30T13:16:29.730432Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SZ-21 MODULE",
+        "OBJECT_ID": "2025-246C",
+        "EPOCH": "2026-09-30T13:16:29.730432",
+        "MEAN_MOTION": 15.87452646,
+        "ECCENTRICITY": 0.00098566,
+        "INCLINATION": 41.4708,
+        "RA_OF_ASC_NODE": 6.2126,
+        "ARG_OF_PERICENTER": 52.299,
+        "MEAN_ANOMALY": 307.8751,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 66515,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 5042,
+        "BSTAR": 0.00022383472,
+        "MEAN_MOTION_DOT": 0.00061477,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 66906,
+      "name": "DUPLEX",
+      "object_id": "1998-067XT",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-09-30T22:38:11.925312Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "DUPLEX",
+        "OBJECT_ID": "1998-067XT",
+        "EPOCH": "2026-09-30T22:38:11.925312",
+        "MEAN_MOTION": 15.71168124,
+        "ECCENTRICITY": 0.00042996,
+        "INCLINATION": 51.6235,
+        "RA_OF_ASC_NODE": 112.1828,
+        "ARG_OF_PERICENTER": 218.4284,
+        "MEAN_ANOMALY": 141.6408,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 66906,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 4723,
+        "BSTAR": 0.00030504017,
+        "MEAN_MOTION_DOT": 0.00038934,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 67683,
+      "name": "KNACKSAT-2",
+      "object_id": "1998-067YA",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-09-30T23:10:33.393792Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "KNACKSAT-2",
+        "OBJECT_ID": "1998-067YA",
+        "EPOCH": "2026-09-30T23:10:33.393792",
+        "MEAN_MOTION": 15.70840245,
+        "ECCENTRICITY": 0.00085841,
+        "INCLINATION": 51.623,
+        "RA_OF_ASC_NODE": 118.3658,
+        "ARG_OF_PERICENTER": 233.0652,
+        "MEAN_ANOMALY": 126.956,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 67683,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 3684,
+        "BSTAR": 0.00040895326,
+        "MEAN_MOTION_DOT": 0.00051839,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 67685,
+      "name": "GXIBA-1",
+      "object_id": "1998-067YC",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-09-30T20:11:04.984224Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "GXIBA-1",
+        "OBJECT_ID": "1998-067YC",
+        "EPOCH": "2026-09-30T20:11:04.984224",
+        "MEAN_MOTION": 15.75512285,
+        "ECCENTRICITY": 0.00096437,
+        "INCLINATION": 51.6192,
+        "RA_OF_ASC_NODE": 115.9894,
+        "ARG_OF_PERICENTER": 234.4041,
+        "MEAN_ANOMALY": 125.6061,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 67685,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 3686,
+        "BSTAR": 0.00048732037,
+        "MEAN_MOTION_DOT": 0.00075965,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 67686,
+      "name": "UITMSAT-2",
+      "object_id": "1998-067YD",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-09-30T22:30:10.394784Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "UITMSAT-2",
+        "OBJECT_ID": "1998-067YD",
+        "EPOCH": "2026-09-30T22:30:10.394784",
+        "MEAN_MOTION": 15.91581641,
+        "ECCENTRICITY": 0.0009109,
+        "INCLINATION": 51.6166,
+        "RA_OF_ASC_NODE": 108.2908,
+        "ARG_OF_PERICENTER": 239.3886,
+        "MEAN_ANOMALY": 120.6223,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 67686,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 3697,
+        "BSTAR": 0.00075955367,
+        "MEAN_MOTION_DOT": 0.00250746,
+        "MEAN_MOTION_DDOT": 3.453922e-05
+      }
+    },
+    {
+      "norad_id": 67687,
+      "name": "LEOPARD",
+      "object_id": "1998-067YE",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-10-01T01:13:45.856416Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "LEOPARD",
+        "OBJECT_ID": "1998-067YE",
+        "EPOCH": "2026-10-01T01:13:45.856416",
+        "MEAN_MOTION": 15.79447992,
+        "ECCENTRICITY": 0.00095451,
+        "INCLINATION": 51.6205,
+        "RA_OF_ASC_NODE": 115.1771,
+        "ARG_OF_PERICENTER": 230.4194,
+        "MEAN_ANOMALY": 129.5964,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 67687,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 3681,
+        "BSTAR": 0.00087003723,
+        "MEAN_MOTION_DOT": 0.00164018,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 67688,
+      "name": "HMU-SAT2",
+      "object_id": "1998-067YF",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-09-30T22:10:42.681504Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "HMU-SAT2",
+        "OBJECT_ID": "1998-067YF",
+        "EPOCH": "2026-09-30T22:10:42.681504",
+        "MEAN_MOTION": 15.82471735,
+        "ECCENTRICITY": 0.00082643,
+        "INCLINATION": 51.6224,
+        "RA_OF_ASC_NODE": 112.033,
+        "ARG_OF_PERICENTER": 222.4192,
+        "MEAN_ANOMALY": 137.6172,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 67688,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 3684,
+        "BSTAR": 0.00060397196,
+        "MEAN_MOTION_DOT": 0.0013014,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 67796,
+      "name": "CREW DRAGON 12",
+      "object_id": "2026-031A",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-10-01T02:39:00.159264Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CREW DRAGON 12",
+        "OBJECT_ID": "2026-031A",
+        "EPOCH": "2026-10-01T02:39:00.159264",
+        "MEAN_MOTION": 15.48700165,
+        "ECCENTRICITY": 0.00069663,
+        "INCLINATION": 51.6315,
+        "RA_OF_ASC_NODE": 135.8796,
+        "ARG_OF_PERICENTER": 208.5453,
+        "MEAN_ANOMALY": 151.5154,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 67796,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 58789,
+        "BSTAR": 6.8953808e-05,
+        "MEAN_MOTION_DOT": 3.312e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 68689,
+      "name": "CYGNUS NG-24",
+      "object_id": "2026-079A",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-10-01T02:39:00.159264Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CYGNUS NG-24",
+        "OBJECT_ID": "2026-079A",
+        "EPOCH": "2026-10-01T02:39:00.159264",
+        "MEAN_MOTION": 15.48700165,
+        "ECCENTRICITY": 0.00069663,
+        "INCLINATION": 51.6315,
+        "RA_OF_ASC_NODE": 135.8796,
+        "ARG_OF_PERICENTER": 208.5453,
+        "MEAN_ANOMALY": 151.5154,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 68689,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 58791,
+        "BSTAR": 6.8953808e-05,
+        "MEAN_MOTION_DOT": 3.312e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 68837,
+      "name": "PROGRESS-MS 34",
+      "object_id": "2026-093A",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-10-01T02:39:00.159264Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "PROGRESS-MS 34",
+        "OBJECT_ID": "2026-093A",
+        "EPOCH": "2026-10-01T02:39:00.159264",
+        "MEAN_MOTION": 15.48700165,
+        "ECCENTRICITY": 0.00069663,
+        "INCLINATION": 51.6315,
+        "RA_OF_ASC_NODE": 135.8796,
+        "ARG_OF_PERICENTER": 208.5453,
+        "MEAN_ANOMALY": 151.5154,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 68837,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 58793,
+        "BSTAR": 6.8953808e-05,
+        "MEAN_MOTION_DOT": 3.312e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 69049,
+      "name": "TIANZHOU-10",
+      "object_id": "2026-102A",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-09-30T18:43:05.025792Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANZHOU-10",
+        "OBJECT_ID": "2026-102A",
+        "EPOCH": "2026-09-30T18:43:05.025792",
+        "MEAN_MOTION": 15.60186162,
+        "ECCENTRICITY": 0.0002425,
+        "INCLINATION": 41.4697,
+        "RA_OF_ASC_NODE": 40.7747,
+        "ARG_OF_PERICENTER": 314.4468,
+        "MEAN_ANOMALY": 45.6172,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 69049,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 30966,
+        "BSTAR": 0.00017025696,
+        "MEAN_MOTION_DOT": 0.00013951,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 69180,
+      "name": "SHENZHOU-23 (SZ-23)",
+      "object_id": "2026-113A",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-09-30T18:43:05.025792Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SHENZHOU-23 (SZ-23)",
+        "OBJECT_ID": "2026-113A",
+        "EPOCH": "2026-09-30T18:43:05.025792",
+        "MEAN_MOTION": 15.60186162,
+        "ECCENTRICITY": 0.0002425,
+        "INCLINATION": 41.4697,
+        "RA_OF_ASC_NODE": 40.7747,
+        "ARG_OF_PERICENTER": 314.4468,
+        "MEAN_ANOMALY": 45.6172,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 69180,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 30817,
+        "BSTAR": 0.00017025696,
+        "MEAN_MOTION_DOT": 0.00013951,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 100057,
+      "name": "SOYUZ-MS 29",
+      "object_id": "2026-162A",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-10-01T02:39:00.159264Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SOYUZ-MS 29",
+        "OBJECT_ID": "2026-162A",
+        "EPOCH": "2026-10-01T02:39:00.159264",
+        "MEAN_MOTION": 15.48700165,
+        "ECCENTRICITY": 0.00069663,
+        "INCLINATION": 51.6315,
+        "RA_OF_ASC_NODE": 135.8796,
+        "ARG_OF_PERICENTER": 208.5453,
+        "MEAN_ANOMALY": 151.5154,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 100057,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 58731,
+        "BSTAR": 6.8953808e-05,
+        "MEAN_MOTION_DOT": 3.312e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 100712,
+      "name": "PROGRESS-MS 35",
+      "object_id": "2026-212A",
+      "groups": [
+        "stations"
+      ],
+      "epoch": "2026-10-01T02:39:00.159264Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "PROGRESS-MS 35",
+        "OBJECT_ID": "2026-212A",
+        "EPOCH": "2026-10-01T02:39:00.159264",
+        "MEAN_MOTION": 15.48700165,
+        "ECCENTRICITY": 0.00069663,
+        "INCLINATION": 51.6315,
+        "RA_OF_ASC_NODE": 135.8796,
+        "ARG_OF_PERICENTER": 208.5453,
+        "MEAN_ANOMALY": 151.5154,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 100712,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 17,
+        "BSTAR": 6.8953808e-05,
+        "MEAN_MOTION_DOT": 3.312e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 20580,
+      "name": "HST",
+      "object_id": "1990-037B",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-30T18:54:54.661824Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "HST",
+        "OBJECT_ID": "1990-037B",
+        "EPOCH": "2026-09-30T18:54:54.661824",
+        "MEAN_MOTION": 15.31794462,
+        "ECCENTRICITY": 0.00012814,
+        "INCLINATION": 28.4724,
+        "RA_OF_ASC_NODE": 78.2368,
+        "ARG_OF_PERICENTER": 243.8444,
+        "MEAN_ANOMALY": 116.2021,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 20580,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 80477,
+        "BSTAR": 0.00010650012,
+        "MEAN_MOTION_DOT": 3.597e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 23802,
+      "name": "POLAR",
+      "object_id": "1996-013A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-25T22:32:31.618176Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "POLAR",
+        "OBJECT_ID": "1996-013A",
+        "EPOCH": "2026-09-25T22:32:31.618176",
+        "MEAN_MOTION": 1.29845792,
+        "ECCENTRICITY": 0.65662335,
+        "INCLINATION": 80.0113,
+        "RA_OF_ASC_NODE": 225.8418,
+        "ARG_OF_PERICENTER": 205.5949,
+        "MEAN_ANOMALY": 97.1375,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 23802,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 14616,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": 1.17e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 25560,
+      "name": "SWAS",
+      "object_id": "1998-071A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-30T13:11:43.767168Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SWAS",
+        "OBJECT_ID": "1998-071A",
+        "EPOCH": "2026-09-30T13:11:43.767168",
+        "MEAN_MOTION": 15.10174149,
+        "ECCENTRICITY": 0.00023396,
+        "INCLINATION": 69.8959,
+        "RA_OF_ASC_NODE": 315.6924,
+        "ARG_OF_PERICENTER": 90.7276,
+        "MEAN_ANOMALY": 269.4156,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 25560,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 51317,
+        "BSTAR": 8.61723e-05,
+        "MEAN_MOTION_DOT": 1.305e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 25867,
+      "name": "CXO",
+      "object_id": "1999-040B",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-02T03:42:59.671584Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CXO",
+        "OBJECT_ID": "1999-040B",
+        "EPOCH": "2026-10-02T03:42:59.671584",
+        "MEAN_MOTION": 0.37807065,
+        "ECCENTRICITY": 0.7676931,
+        "INCLINATION": 57.6772,
+        "RA_OF_ASC_NODE": 113.8147,
+        "ARG_OF_PERICENTER": 309.2642,
+        "MEAN_ANOMALY": 0.1327,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 25867,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 1772,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": 9.15e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 25989,
+      "name": "XMM-NEWTON",
+      "object_id": "1999-066A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-26T01:52:28.597728Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "XMM-NEWTON",
+        "OBJECT_ID": "1999-066A",
+        "EPOCH": "2026-09-26T01:52:28.597728",
+        "MEAN_MOTION": 0.50121727,
+        "ECCENTRICITY": 0.46485811,
+        "INCLINATION": 63.9616,
+        "RA_OF_ASC_NODE": 281.6787,
+        "ARG_OF_PERICENTER": 63.103,
+        "MEAN_ANOMALY": 0.1095,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 25989,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 2351,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": 1.8e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 25994,
+      "name": "TERRA",
+      "object_id": "1999-068A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T03:53:06.596160Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TERRA",
+        "OBJECT_ID": "1999-068A",
+        "EPOCH": "2026-10-01T03:53:06.596160",
+        "MEAN_MOTION": 14.61168064,
+        "ECCENTRICITY": 0.00010219,
+        "INCLINATION": 97.9341,
+        "RA_OF_ASC_NODE": 319.4479,
+        "ARG_OF_PERICENTER": 232.4854,
+        "MEAN_ANOMALY": 184.492,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 25994,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 42508,
+        "BSTAR": 4.1060342e-05,
+        "MEAN_MOTION_DOT": 1.58e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 26998,
+      "name": "TIMED",
+      "object_id": "2001-055B",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T01:05:44.461536Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIMED",
+        "OBJECT_ID": "2001-055B",
+        "EPOCH": "2026-10-01T01:05:44.461536",
+        "MEAN_MOTION": 14.95483569,
+        "ECCENTRICITY": 0.000138,
+        "INCLINATION": 74.0694,
+        "RA_OF_ASC_NODE": 21.8376,
+        "ARG_OF_PERICENTER": 227.0779,
+        "MEAN_ANOMALY": 133.029,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 26998,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 34664,
+        "BSTAR": 6.341056e-05,
+        "MEAN_MOTION_DOT": 6.62e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 27640,
+      "name": "CORIOLIS",
+      "object_id": "2003-001A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-30T21:26:52.952352Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CORIOLIS",
+        "OBJECT_ID": "2003-001A",
+        "EPOCH": "2026-09-30T21:26:52.952352",
+        "MEAN_MOTION": 14.19969173,
+        "ECCENTRICITY": 0.00128777,
+        "INCLINATION": 98.7169,
+        "RA_OF_ASC_NODE": 279.1865,
+        "ARG_OF_PERICENTER": 268.7368,
+        "MEAN_ANOMALY": 91.2334,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 27640,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 22922,
+        "BSTAR": 3.789158e-05,
+        "MEAN_MOTION_DOT": 3.7e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 27651,
+      "name": "SORCE",
+      "object_id": "2003-004A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-30T23:40:17.799168Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SORCE",
+        "OBJECT_ID": "2003-004A",
+        "EPOCH": "2026-09-30T23:40:17.799168",
+        "MEAN_MOTION": 15.04174873,
+        "ECCENTRICITY": 0.00160291,
+        "INCLINATION": 39.9917,
+        "RA_OF_ASC_NODE": 17.8212,
+        "ARG_OF_PERICENTER": 91.2861,
+        "MEAN_ANOMALY": 268.977,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 27651,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 28783,
+        "BSTAR": 0.00011412788,
+        "MEAN_MOTION_DOT": 1.462e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 27843,
+      "name": "MOST",
+      "object_id": "2003-031D",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T00:24:18.621216Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "MOST",
+        "OBJECT_ID": "2003-031D",
+        "EPOCH": "2026-10-01T00:24:18.621216",
+        "MEAN_MOTION": 14.21340216,
+        "ECCENTRICITY": 0.00089992,
+        "INCLINATION": 98.7083,
+        "RA_OF_ASC_NODE": 280.2846,
+        "ARG_OF_PERICENTER": 311.4631,
+        "MEAN_ANOMALY": 48.5772,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 27843,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 20574,
+        "BSTAR": 2.5925315e-05,
+        "MEAN_MOTION_DOT": 1.3e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 27858,
+      "name": "SCISAT 1",
+      "object_id": "2003-036A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-30T20:06:51.991200Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SCISAT 1",
+        "OBJECT_ID": "2003-036A",
+        "EPOCH": "2026-09-30T20:06:51.991200",
+        "MEAN_MOTION": 14.81550013,
+        "ECCENTRICITY": 0.00075364,
+        "INCLINATION": 73.9305,
+        "RA_OF_ASC_NODE": 321.4098,
+        "ARG_OF_PERICENTER": 349.4259,
+        "MEAN_ANOMALY": 10.6758,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 27858,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 24709,
+        "BSTAR": 3.609657e-05,
+        "MEAN_MOTION_DOT": 2.47e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 28485,
+      "name": "SWIFT",
+      "object_id": "2004-047A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-29T19:56:57.507360Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SWIFT",
+        "OBJECT_ID": "2004-047A",
+        "EPOCH": "2026-09-29T19:56:57.507360",
+        "MEAN_MOTION": 15.85873609,
+        "ECCENTRICITY": 0.00048247,
+        "INCLINATION": 20.5507,
+        "RA_OF_ASC_NODE": 89.9008,
+        "ARG_OF_PERICENTER": 24.6372,
+        "MEAN_ANOMALY": 335.4307,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 28485,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 20338,
+        "BSTAR": 0.00059845263,
+        "MEAN_MOTION_DOT": 0.00158376,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 29479,
+      "name": "HINODE (SOLAR-B)",
+      "object_id": "2006-041A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-30T18:51:06.139008Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "HINODE (SOLAR-B)",
+        "OBJECT_ID": "2006-041A",
+        "EPOCH": "2026-09-30T18:51:06.139008",
+        "MEAN_MOTION": 14.68733451,
+        "ECCENTRICITY": 0.00164249,
+        "INCLINATION": 98.0542,
+        "RA_OF_ASC_NODE": 288.3866,
+        "ARG_OF_PERICENTER": 316.285,
+        "MEAN_ANOMALY": 43.7054,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 29479,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 7037,
+        "BSTAR": 5.7318802e-05,
+        "MEAN_MOTION_DOT": 2.85e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 29505,
+      "name": "SHIJIAN-6 02A (SJ-6 02A)",
+      "object_id": "2006-046A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T07:44:20.935392Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SHIJIAN-6 02A (SJ-6 02A)",
+        "OBJECT_ID": "2006-046A",
+        "EPOCH": "2026-10-01T07:44:20.935392",
+        "MEAN_MOTION": 15.17935145,
+        "ECCENTRICITY": 0.00043307,
+        "INCLINATION": 97.6257,
+        "RA_OF_ASC_NODE": 316.2061,
+        "ARG_OF_PERICENTER": 119.5179,
+        "MEAN_ANOMALY": 240.6486,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 29505,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 8836,
+        "BSTAR": 0.00011834262,
+        "MEAN_MOTION_DOT": 2.332e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 29506,
+      "name": "SHIJIAN-6 02B (SJ-6 02B)",
+      "object_id": "2006-046B",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T07:26:02.982336Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SHIJIAN-6 02B (SJ-6 02B)",
+        "OBJECT_ID": "2006-046B",
+        "EPOCH": "2026-10-01T07:26:02.982336",
+        "MEAN_MOTION": 15.01501393,
+        "ECCENTRICITY": 0.00154532,
+        "INCLINATION": 97.6951,
+        "RA_OF_ASC_NODE": 302.6112,
+        "ARG_OF_PERICENTER": 76.5355,
+        "MEAN_ANOMALY": 283.759,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 29506,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 8666,
+        "BSTAR": 6.7363837e-05,
+        "MEAN_MOTION_DOT": 8.12e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 33053,
+      "name": "FGRST (GLAST)",
+      "object_id": "2008-029A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T02:10:04.123200Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "FGRST (GLAST)",
+        "OBJECT_ID": "2008-029A",
+        "EPOCH": "2026-10-01T02:10:04.123200",
+        "MEAN_MOTION": 15.24420878,
+        "ECCENTRICITY": 0.00083129,
+        "INCLINATION": 25.5815,
+        "RA_OF_ASC_NODE": 188.8723,
+        "ARG_OF_PERICENTER": 134.8627,
+        "MEAN_ANOMALY": 225.2587,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 33053,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 1186,
+        "BSTAR": 6.6020113e-05,
+        "MEAN_MOTION_DOT": 2.005e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 36395,
+      "name": "SDO",
+      "object_id": "2010-005A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-29T12:01:37.301952Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SDO",
+        "OBJECT_ID": "2010-005A",
+        "EPOCH": "2026-09-29T12:01:37.301952",
+        "MEAN_MOTION": 1.00273696,
+        "ECCENTRICITY": 0.00017828,
+        "INCLINATION": 34.8675,
+        "RA_OF_ASC_NODE": 84.7568,
+        "ARG_OF_PERICENTER": 87.4786,
+        "MEAN_ANOMALY": 274.8844,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 36395,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 6111,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -5.5e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 36508,
+      "name": "CRYOSAT 2",
+      "object_id": "2010-013A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T01:56:06.984096Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CRYOSAT 2",
+        "OBJECT_ID": "2010-013A",
+        "EPOCH": "2026-10-01T01:56:06.984096",
+        "MEAN_MOTION": 14.51904662,
+        "ECCENTRICITY": 0.00021563,
+        "INCLINATION": 92.0251,
+        "RA_OF_ASC_NODE": 303.0024,
+        "ARG_OF_PERICENTER": 88.9927,
+        "MEAN_ANOMALY": 271.1527,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 36508,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 87344,
+        "BSTAR": 1.8504477e-05,
+        "MEAN_MOTION_DOT": 7.8e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 37389,
+      "name": "X-SAT",
+      "object_id": "2011-015C",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T05:38:03.156000Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "X-SAT",
+        "OBJECT_ID": "2011-015C",
+        "EPOCH": "2026-10-01T05:38:03.156000",
+        "MEAN_MOTION": 14.25232348,
+        "ECCENTRICITY": 0.00149056,
+        "INCLINATION": 98.3662,
+        "RA_OF_ASC_NODE": 246.2759,
+        "ARG_OF_PERICENTER": 35.6329,
+        "MEAN_ANOMALY": 324.5843,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 37389,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 80278,
+        "BSTAR": 0.00011188887,
+        "MEAN_MOTION_DOT": 2.22e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 38337,
+      "name": "GCOM-W1 (SHIZUKU)",
+      "object_id": "2012-025A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-30T20:28:29.809920Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "GCOM-W1 (SHIZUKU)",
+        "OBJECT_ID": "2012-025A",
+        "EPOCH": "2026-09-30T20:28:29.809920",
+        "MEAN_MOTION": 14.57110117,
+        "ECCENTRICITY": 0.00016528,
+        "INCLINATION": 98.2094,
+        "RA_OF_ASC_NODE": 212.8331,
+        "ARG_OF_PERICENTER": 79.8322,
+        "MEAN_ANOMALY": 346.1191,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 38337,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 76442,
+        "BSTAR": 6.450469e-05,
+        "MEAN_MOTION_DOT": 2.45e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 38358,
+      "name": "NUSTAR",
+      "object_id": "2012-031A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T06:00:02.999808Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "NUSTAR",
+        "OBJECT_ID": "2012-031A",
+        "EPOCH": "2026-10-01T06:00:02.999808",
+        "MEAN_MOTION": 15.09662446,
+        "ECCENTRICITY": 0.00084885,
+        "INCLINATION": 6.0268,
+        "RA_OF_ASC_NODE": 318.0127,
+        "ARG_OF_PERICENTER": 250.6724,
+        "MEAN_ANOMALY": 243.4744,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 38358,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 130,
+        "BSTAR": 9.4005066e-05,
+        "MEAN_MOTION_DOT": 2.422e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 39089,
+      "name": "NEOSSAT",
+      "object_id": "2013-009D",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-30T18:48:01.999872Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "NEOSSAT",
+        "OBJECT_ID": "2013-009D",
+        "EPOCH": "2026-09-30T18:48:01.999872",
+        "MEAN_MOTION": 14.35857671,
+        "ECCENTRICITY": 0.00099296,
+        "INCLINATION": 98.4229,
+        "RA_OF_ASC_NODE": 91.3499,
+        "ARG_OF_PERICENTER": 294.5526,
+        "MEAN_ANOMALY": 65.4625,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 39089,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 71189,
+        "BSTAR": 4.5573246e-05,
+        "MEAN_MOTION_DOT": 8.9e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 39091,
+      "name": "BRITE-AUSTRIA",
+      "object_id": "2013-009F",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-30T17:30:12.324384Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "BRITE-AUSTRIA",
+        "OBJECT_ID": "2013-009F",
+        "EPOCH": "2026-09-30T17:30:12.324384",
+        "MEAN_MOTION": 14.36575712,
+        "ECCENTRICITY": 0.00090464,
+        "INCLINATION": 98.4051,
+        "RA_OF_ASC_NODE": 90.6,
+        "ARG_OF_PERICENTER": 287.2598,
+        "MEAN_ANOMALY": 72.7599,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 39091,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 71220,
+        "BSTAR": 3.7358659e-05,
+        "MEAN_MOTION_DOT": 6.7e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 39197,
+      "name": "IRIS",
+      "object_id": "2013-033A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T00:26:49.314048Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "IRIS",
+        "OBJECT_ID": "2013-033A",
+        "EPOCH": "2026-10-01T00:26:49.314048",
+        "MEAN_MOTION": 14.86058613,
+        "ECCENTRICITY": 0.00238567,
+        "INCLINATION": 97.926,
+        "RA_OF_ASC_NODE": 112.9549,
+        "ARG_OF_PERICENTER": 335.7611,
+        "MEAN_ANOMALY": 24.248,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 39197,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 71609,
+        "BSTAR": 6.4920686e-05,
+        "MEAN_MOTION_DOT": 5.14e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 39253,
+      "name": "HISAKI (SPRINT-A)",
+      "object_id": "2013-049A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T00:51:00.433152Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "HISAKI (SPRINT-A)",
+        "OBJECT_ID": "2013-049A",
+        "EPOCH": "2026-10-01T00:51:00.433152",
+        "MEAN_MOTION": 13.55552059,
+        "ECCENTRICITY": 0.01364219,
+        "INCLINATION": 29.7206,
+        "RA_OF_ASC_NODE": 41.8622,
+        "ARG_OF_PERICENTER": 155.0272,
+        "MEAN_ANOMALY": 205.6973,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 39253,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 64579,
+        "BSTAR": 3.9414413e-05,
+        "MEAN_MOTION_DOT": 9.5e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 39265,
+      "name": "CASSIOPE",
+      "object_id": "2013-055A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T01:23:53.234592Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CASSIOPE",
+        "OBJECT_ID": "2013-055A",
+        "EPOCH": "2026-10-01T01:23:53.234592",
+        "MEAN_MOTION": 15.3262812,
+        "ECCENTRICITY": 0.02656646,
+        "INCLINATION": 80.9103,
+        "RA_OF_ASC_NODE": 297.4272,
+        "ARG_OF_PERICENTER": 63.7021,
+        "MEAN_ANOMALY": 299.1244,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 39265,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 68384,
+        "BSTAR": 0.00024517346,
+        "MEAN_MOTION_DOT": 0.00025131,
+        "MEAN_MOTION_DDOT": -7.67917e-07
+      }
+    },
+    {
+      "norad_id": 39422,
+      "name": "STSAT-3",
+      "object_id": "2013-066G",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T05:35:35.705760Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "STSAT-3",
+        "OBJECT_ID": "2013-066G",
+        "EPOCH": "2026-10-01T05:35:35.705760",
+        "MEAN_MOTION": 15.0324583,
+        "ECCENTRICITY": 0.00115069,
+        "INCLINATION": 97.6362,
+        "RA_OF_ASC_NODE": 242.5076,
+        "ARG_OF_PERICENTER": 44.6717,
+        "MEAN_ANOMALY": 315.5434,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 39422,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 70013,
+        "BSTAR": 0.00010710391,
+        "MEAN_MOTION_DOT": 1.391e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 39451,
+      "name": "SWARM B",
+      "object_id": "2013-067A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T02:30:19.489536Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SWARM B",
+        "OBJECT_ID": "2013-067A",
+        "EPOCH": "2026-10-01T02:30:19.489536",
+        "MEAN_MOTION": 15.29105607,
+        "ECCENTRICITY": 0.00030262,
+        "INCLINATION": 87.7409,
+        "RA_OF_ASC_NODE": 310.147,
+        "ARG_OF_PERICENTER": 80.4495,
+        "MEAN_ANOMALY": 279.7096,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 39451,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 69942,
+        "BSTAR": 6.0583541e-05,
+        "MEAN_MOTION_DOT": 1.747e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 39452,
+      "name": "SWARM A",
+      "object_id": "2013-067B",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T01:13:47.796096Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SWARM A",
+        "OBJECT_ID": "2013-067B",
+        "EPOCH": "2026-10-01T01:13:47.796096",
+        "MEAN_MOTION": 15.51043906,
+        "ECCENTRICITY": 0.0002823,
+        "INCLINATION": 87.3371,
+        "RA_OF_ASC_NODE": 16.9165,
+        "ARG_OF_PERICENTER": 102.032,
+        "MEAN_ANOMALY": 258.1258,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 39452,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 72265,
+        "BSTAR": 0.00011578151,
+        "MEAN_MOTION_DOT": 6.771e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 39453,
+      "name": "SWARM C",
+      "object_id": "2013-067C",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T01:13:39.227808Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SWARM C",
+        "OBJECT_ID": "2013-067C",
+        "EPOCH": "2026-10-01T01:13:39.227808",
+        "MEAN_MOTION": 15.51042596,
+        "ECCENTRICITY": 0.00028396,
+        "INCLINATION": 87.3373,
+        "RA_OF_ASC_NODE": 15.5002,
+        "ARG_OF_PERICENTER": 101.8891,
+        "MEAN_ANOMALY": 258.2688,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 39453,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 72261,
+        "BSTAR": 0.00011431916,
+        "MEAN_MOTION_DOT": 6.686e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 40020,
+      "name": "BRITE-CA1 (TORONTO)",
+      "object_id": "2014-033L",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-30T21:20:44.071008Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "BRITE-CA1 (TORONTO)",
+        "OBJECT_ID": "2014-033L",
+        "EPOCH": "2026-09-30T21:20:44.071008",
+        "MEAN_MOTION": 14.72828935,
+        "ECCENTRICITY": 0.00771745,
+        "INCLINATION": 97.9882,
+        "RA_OF_ASC_NODE": 40.9596,
+        "ARG_OF_PERICENTER": 299.0019,
+        "MEAN_ANOMALY": 60.347,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 40020,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 65777,
+        "BSTAR": 6.8320701e-05,
+        "MEAN_MOTION_DOT": 4.03e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 40059,
+      "name": "OCO 2",
+      "object_id": "2014-035A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T02:41:35.471904Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "OCO 2",
+        "OBJECT_ID": "2014-035A",
+        "EPOCH": "2026-10-01T02:41:35.471904",
+        "MEAN_MOTION": 14.5709906,
+        "ECCENTRICITY": 0.00014559,
+        "INCLINATION": 98.2094,
+        "RA_OF_ASC_NODE": 213.8214,
+        "ARG_OF_PERICENTER": 70.636,
+        "MEAN_ANOMALY": 289.4995,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 40059,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 65147,
+        "BSTAR": 5.568874e-05,
+        "MEAN_MOTION_DOT": 2.06e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 40119,
+      "name": "BRITE-PL2 (HEWELIUSZ)",
+      "object_id": "2014-049B",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-30T20:58:06.535200Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "BRITE-PL2 (HEWELIUSZ)",
+        "OBJECT_ID": "2014-049B",
+        "EPOCH": "2026-09-30T20:58:06.535200",
+        "MEAN_MOTION": 14.94898614,
+        "ECCENTRICITY": 0.00152251,
+        "INCLINATION": 97.9184,
+        "RA_OF_ASC_NODE": 26.7595,
+        "ARG_OF_PERICENTER": 116.387,
+        "MEAN_ANOMALY": 243.8915,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 40119,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 65723,
+        "BSTAR": 0.00012587146,
+        "MEAN_MOTION_DOT": 1.315e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 40482,
+      "name": "MMS 1",
+      "object_id": "2015-011A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T06:00:02.999808Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "MMS 1",
+        "OBJECT_ID": "2015-011A",
+        "EPOCH": "2026-10-01T06:00:02.999808",
+        "MEAN_MOTION": 0.28430639,
+        "ECCENTRICITY": 0.82365041,
+        "INCLINATION": 72.9998,
+        "RA_OF_ASC_NODE": 347.5613,
+        "ARG_OF_PERICENTER": 169.7813,
+        "MEAN_ANOMALY": 317.65,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 40482,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 139,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -1.383e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 40483,
+      "name": "MMS 2",
+      "object_id": "2015-011B",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T06:00:02.999808Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "MMS 2",
+        "OBJECT_ID": "2015-011B",
+        "EPOCH": "2026-10-01T06:00:02.999808",
+        "MEAN_MOTION": 0.28430621,
+        "ECCENTRICITY": 0.82393616,
+        "INCLINATION": 73.0044,
+        "RA_OF_ASC_NODE": 347.5601,
+        "ARG_OF_PERICENTER": 169.7823,
+        "MEAN_ANOMALY": 317.6257,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 40483,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 139,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -1.383e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 40484,
+      "name": "MMS 3",
+      "object_id": "2015-011C",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T06:00:02.999808Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "MMS 3",
+        "OBJECT_ID": "2015-011C",
+        "EPOCH": "2026-10-01T06:00:02.999808",
+        "MEAN_MOTION": 0.28430519,
+        "ECCENTRICITY": 0.82377273,
+        "INCLINATION": 73.0036,
+        "RA_OF_ASC_NODE": 347.5722,
+        "ARG_OF_PERICENTER": 169.7911,
+        "MEAN_ANOMALY": 317.6,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 40484,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 139,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -1.383e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 40485,
+      "name": "MMS 4",
+      "object_id": "2015-011D",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T06:00:02.999808Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "MMS 4",
+        "OBJECT_ID": "2015-011D",
+        "EPOCH": "2026-10-01T06:00:02.999808",
+        "MEAN_MOTION": 0.28436453,
+        "ECCENTRICITY": 0.82376041,
+        "INCLINATION": 72.9968,
+        "RA_OF_ASC_NODE": 347.5557,
+        "ARG_OF_PERICENTER": 169.8007,
+        "MEAN_ANOMALY": 317.5841,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 40485,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 139,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -1.383e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 40930,
+      "name": "ASTROSAT",
+      "object_id": "2015-052A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-30T08:51:00.279072Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "ASTROSAT",
+        "OBJECT_ID": "2015-052A",
+        "EPOCH": "2026-09-30T08:51:00.279072",
+        "MEAN_MOTION": 14.82662754,
+        "ECCENTRICITY": 0.00073789,
+        "INCLINATION": 5.9962,
+        "RA_OF_ASC_NODE": 118.1416,
+        "ARG_OF_PERICENTER": 99.0192,
+        "MEAN_ANOMALY": 261.0771,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 40930,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 59546,
+        "BSTAR": 7.2381335e-05,
+        "MEAN_MOTION_DOT": 1.268e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41173,
+      "name": "DAMPE",
+      "object_id": "2015-078A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T06:03:45.325152Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "DAMPE",
+        "OBJECT_ID": "2015-078A",
+        "EPOCH": "2026-10-01T06:03:45.325152",
+        "MEAN_MOTION": 15.31007872,
+        "ECCENTRICITY": 0.00135831,
+        "INCLINATION": 97.4598,
+        "RA_OF_ASC_NODE": 280.2829,
+        "ARG_OF_PERICENTER": 62.8711,
+        "MEAN_ANOMALY": 297.3913,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41173,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 60077,
+        "BSTAR": 3.0058736e-05,
+        "MEAN_MOTION_DOT": 8.24e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41784,
+      "name": "PISAT",
+      "object_id": "2016-059B",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-30T17:12:15.497856Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "PISAT",
+        "OBJECT_ID": "2016-059B",
+        "EPOCH": "2026-09-30T17:12:15.497856",
+        "MEAN_MOTION": 14.69143508,
+        "ECCENTRICITY": 0.00278264,
+        "INCLINATION": 97.8257,
+        "RA_OF_ASC_NODE": 269.6859,
+        "ARG_OF_PERICENTER": 226.4811,
+        "MEAN_ANOMALY": 133.4083,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41784,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 53523,
+        "BSTAR": 8.4997728e-05,
+        "MEAN_MOTION_DOT": 4.55e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 42758,
+      "name": "HXMT (HUIYAN)",
+      "object_id": "2017-034A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T06:34:36.927264Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "HXMT (HUIYAN)",
+        "OBJECT_ID": "2017-034A",
+        "EPOCH": "2026-10-01T06:34:36.927264",
+        "MEAN_MOTION": 15.19250031,
+        "ECCENTRICITY": 0.00300206,
+        "INCLINATION": 43.0153,
+        "RA_OF_ASC_NODE": 311.9661,
+        "ARG_OF_PERICENTER": 99.0451,
+        "MEAN_ANOMALY": 261.3797,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 42758,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 51379,
+        "BSTAR": 0.00010363141,
+        "MEAN_MOTION_DOT": 2e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 42831,
+      "name": "FLYING LAPTOP",
+      "object_id": "2017-042G",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T06:49:58.290816Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "FLYING LAPTOP",
+        "OBJECT_ID": "2017-042G",
+        "EPOCH": "2026-10-01T06:49:58.290816",
+        "MEAN_MOTION": 15.01646872,
+        "ECCENTRICITY": 0.00185151,
+        "INCLINATION": 97.5029,
+        "RA_OF_ASC_NODE": 66.0565,
+        "ARG_OF_PERICENTER": 117.673,
+        "MEAN_ANOMALY": 242.6376,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 42831,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 50237,
+        "BSTAR": 7.396345e-05,
+        "MEAN_MOTION_DOT": 9.05e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 43194,
+      "name": "ZHANGHENG 1-01 (CSES-1)",
+      "object_id": "2018-015C",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T06:26:06.373248Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "ZHANGHENG 1-01 (CSES-1)",
+        "OBJECT_ID": "2018-015C",
+        "EPOCH": "2026-10-01T06:26:06.373248",
+        "MEAN_MOTION": 15.20772248,
+        "ECCENTRICITY": 0.00129741,
+        "INCLINATION": 97.6973,
+        "RA_OF_ASC_NODE": 82.1038,
+        "ARG_OF_PERICENTER": 267.5216,
+        "MEAN_ANOMALY": 92.4533,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 43194,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 48076,
+        "BSTAR": 0.00017415168,
+        "MEAN_MOTION_DOT": 3.77e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 46495,
+      "name": "SALSAT",
+      "object_id": "2020-068K",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-30T14:31:33.718368Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SALSAT",
+        "OBJECT_ID": "2020-068K",
+        "EPOCH": "2026-09-30T14:31:33.718368",
+        "MEAN_MOTION": 15.31095185,
+        "ECCENTRICITY": 0.00077024,
+        "INCLINATION": 97.8883,
+        "RA_OF_ASC_NODE": 283.2186,
+        "ARG_OF_PERICENTER": 296.9493,
+        "MEAN_ANOMALY": 63.0959,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 46495,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 33148,
+        "BSTAR": 0.00012907213,
+        "MEAN_MOTION_DOT": 3.793e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 49954,
+      "name": "IXPE",
+      "object_id": "2021-121A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-10-01T08:00:01.999872Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "IXPE",
+        "OBJECT_ID": "2021-121A",
+        "EPOCH": "2026-10-01T08:00:01.999872",
+        "MEAN_MOTION": 15.11083744,
+        "ECCENTRICITY": 0.00072029,
+        "INCLINATION": 0.2297,
+        "RA_OF_ASC_NODE": 234.2041,
+        "ARG_OF_PERICENTER": 243.8521,
+        "MEAN_ANOMALY": 66.8403,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 49954,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 574,
+        "BSTAR": 0.00032457437,
+        "MEAN_MOTION_DOT": 6.526e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 69123,
+      "name": "SMILE",
+      "object_id": "2026-109A",
+      "groups": [
+        "science"
+      ],
+      "epoch": "2026-09-25T15:26:39.393600Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SMILE",
+        "OBJECT_ID": "2026-109A",
+        "EPOCH": "2026-09-25T15:26:39.393600",
+        "MEAN_MOTION": 0.47507702,
+        "ECCENTRICITY": 0.81512778,
+        "INCLINATION": 69.99,
+        "RA_OF_ASC_NODE": 206.2872,
+        "ARG_OF_PERICENTER": 285.5261,
+        "MEAN_ANOMALY": 5.6589,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 69123,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 42,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": 6.59e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 28054,
+      "name": "DMSP 5D-3 F16 (USA 172)",
+      "object_id": "2003-048A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T01:28:45.663168Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "DMSP 5D-3 F16 (USA 172)",
+        "OBJECT_ID": "2003-048A",
+        "EPOCH": "2026-10-01T01:28:45.663168",
+        "MEAN_MOTION": 14.14492738,
+        "ECCENTRICITY": 0.00066692,
+        "INCLINATION": 98.9846,
+        "RA_OF_ASC_NODE": 298.5697,
+        "ARG_OF_PERICENTER": 199.2759,
+        "MEAN_ANOMALY": 246.0012,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 28054,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 18445,
+        "BSTAR": 2.2761541e-05,
+        "MEAN_MOTION_DOT": -2e-08,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 28912,
+      "name": "METEOSAT-9 (MSG-2)",
+      "object_id": "2005-049B",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T23:29:38.571360Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "METEOSAT-9 (MSG-2)",
+        "OBJECT_ID": "2005-049B",
+        "EPOCH": "2026-09-30T23:29:38.571360",
+        "MEAN_MOTION": 1.00269504,
+        "ECCENTRICITY": 0.00013241,
+        "INCLINATION": 9.597,
+        "RA_OF_ASC_NODE": 53.0901,
+        "ARG_OF_PERICENTER": 7.9916,
+        "MEAN_ANOMALY": 346.767,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 28912,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 805,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": 1.26e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 29522,
+      "name": "DMSP 5D-3 F17 (USA 191)",
+      "object_id": "2006-050A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T00:34:34.666176Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "DMSP 5D-3 F17 (USA 191)",
+        "OBJECT_ID": "2006-050A",
+        "EPOCH": "2026-10-01T00:34:34.666176",
+        "MEAN_MOTION": 14.15011705,
+        "ECCENTRICITY": 0.00111487,
+        "INCLINATION": 98.7427,
+        "RA_OF_ASC_NODE": 278.4529,
+        "ARG_OF_PERICENTER": 111.5196,
+        "MEAN_ANOMALY": 248.7167,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 29522,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 2739,
+        "BSTAR": 5.0068193e-05,
+        "MEAN_MOTION_DOT": 5.4e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 32958,
+      "name": "FENGYUN 3A",
+      "object_id": "2008-026A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T20:13:02.477856Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "FENGYUN 3A",
+        "OBJECT_ID": "2008-026A",
+        "EPOCH": "2026-09-30T20:13:02.477856",
+        "MEAN_MOTION": 14.19589408,
+        "ECCENTRICITY": 0.00086129,
+        "INCLINATION": 98.6959,
+        "RA_OF_ASC_NODE": 212.7268,
+        "ARG_OF_PERICENTER": 176.6575,
+        "MEAN_ANOMALY": 183.466,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 32958,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 95039,
+        "BSTAR": 4.0900447e-05,
+        "MEAN_MOTION_DOT": 4.3e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 35491,
+      "name": "EWS-G3 (GOES 14)",
+      "object_id": "2009-033A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T21:53:12.124032Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "EWS-G3 (GOES 14)",
+        "OBJECT_ID": "2009-033A",
+        "EPOCH": "2026-09-30T21:53:12.124032",
+        "MEAN_MOTION": 1.00069911,
+        "ECCENTRICITY": 0.00023284,
+        "INCLINATION": 1.9557,
+        "RA_OF_ASC_NODE": 81.5237,
+        "ARG_OF_PERICENTER": 114.3419,
+        "MEAN_ANOMALY": 213.5946,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 35491,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 764,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -1e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 35951,
+      "name": "DMSP 5D-3 F18 (USA 210)",
+      "object_id": "2009-057A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T00:01:13.827072Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "DMSP 5D-3 F18 (USA 210)",
+        "OBJECT_ID": "2009-057A",
+        "EPOCH": "2026-10-01T00:01:13.827072",
+        "MEAN_MOTION": 14.14946883,
+        "ECCENTRICITY": 0.00103452,
+        "INCLINATION": 98.9174,
+        "RA_OF_ASC_NODE": 254.6054,
+        "ARG_OF_PERICENTER": 315.6694,
+        "MEAN_ANOMALY": 44.365,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 35951,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 87455,
+        "BSTAR": 8.6317266e-05,
+        "MEAN_MOTION_DOT": 1.22e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 36411,
+      "name": "EWS-G2 (GOES 15)",
+      "object_id": "2010-008A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T20:17:07.673280Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "EWS-G2 (GOES 15)",
+        "OBJECT_ID": "2010-008A",
+        "EPOCH": "2026-09-30T20:17:07.673280",
+        "MEAN_MOTION": 1.00272191,
+        "ECCENTRICITY": 0.00049147,
+        "INCLINATION": 1.5623,
+        "RA_OF_ASC_NODE": 81.7308,
+        "ARG_OF_PERICENTER": 91.9764,
+        "MEAN_ANOMALY": 203.494,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 36411,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 6069,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": 2.2e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 37214,
+      "name": "FENGYUN 3B",
+      "object_id": "2010-059A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:28:07.056192Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "FENGYUN 3B",
+        "OBJECT_ID": "2010-059A",
+        "EPOCH": "2026-10-01T07:28:07.056192",
+        "MEAN_MOTION": 14.14859068,
+        "ECCENTRICITY": 0.00210557,
+        "INCLINATION": 98.9507,
+        "RA_OF_ASC_NODE": 320.719,
+        "ARG_OF_PERICENTER": 244.87,
+        "MEAN_ANOMALY": 180.7173,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 37214,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 82243,
+        "BSTAR": -5.7580235e-05,
+        "MEAN_MOTION_DOT": -1.57e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 37849,
+      "name": "SUOMI NPP",
+      "object_id": "2011-061A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T03:20:47.327424Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SUOMI NPP",
+        "OBJECT_ID": "2011-061A",
+        "EPOCH": "2026-10-01T03:20:47.327424",
+        "MEAN_MOTION": 14.19535965,
+        "ECCENTRICITY": 0.00024483,
+        "INCLINATION": 98.8031,
+        "RA_OF_ASC_NODE": 214.3206,
+        "ARG_OF_PERICENTER": 45.2419,
+        "MEAN_ANOMALY": 314.8956,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 37849,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 77347,
+        "BSTAR": 4.2906208e-05,
+        "MEAN_MOTION_DOT": 4.6e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 38552,
+      "name": "METEOSAT-10 (MSG-3)",
+      "object_id": "2012-035B",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-25T16:40:00.852384Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "METEOSAT-10 (MSG-3)",
+        "OBJECT_ID": "2012-035B",
+        "EPOCH": "2026-09-25T16:40:00.852384",
+        "MEAN_MOTION": 1.00273165,
+        "ECCENTRICITY": 9.967e-05,
+        "INCLINATION": 4.904,
+        "RA_OF_ASC_NODE": 60.4434,
+        "ARG_OF_PERICENTER": 124.6493,
+        "MEAN_ANOMALY": 69.5152,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 38552,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 5186,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": 0,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 38771,
+      "name": "METOP-B",
+      "object_id": "2012-049A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T01:21:49.651488Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "METOP-B",
+        "OBJECT_ID": "2012-049A",
+        "EPOCH": "2026-10-01T01:21:49.651488",
+        "MEAN_MOTION": 14.21462019,
+        "ECCENTRICITY": 0.00030804,
+        "INCLINATION": 98.6387,
+        "RA_OF_ASC_NODE": 323.3846,
+        "ARG_OF_PERICENTER": 58.4385,
+        "MEAN_ANOMALY": 301.7093,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 38771,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 72830,
+        "BSTAR": 3.6007242e-05,
+        "MEAN_MOTION_DOT": 3.6e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 39216,
+      "name": "INSAT-3D",
+      "object_id": "2013-038B",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T20:26:43.672704Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "INSAT-3D",
+        "OBJECT_ID": "2013-038B",
+        "EPOCH": "2026-09-30T20:26:43.672704",
+        "MEAN_MOTION": 1.00269864,
+        "ECCENTRICITY": 0.00022935,
+        "INCLINATION": 2.1913,
+        "RA_OF_ASC_NODE": 81.0738,
+        "ARG_OF_PERICENTER": 134.9073,
+        "MEAN_ANOMALY": 229.8309,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 39216,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 4814,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -3.38e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 39260,
+      "name": "FENGYUN 3C",
+      "object_id": "2013-052A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T06:22:17.536800Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "FENGYUN 3C",
+        "OBJECT_ID": "2013-052A",
+        "EPOCH": "2026-10-01T06:22:17.536800",
+        "MEAN_MOTION": 14.1577447,
+        "ECCENTRICITY": 0.00158101,
+        "INCLINATION": 98.5139,
+        "RA_OF_ASC_NODE": 243.3393,
+        "ARG_OF_PERICENTER": 78.7863,
+        "MEAN_ANOMALY": 281.5088,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 39260,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 67357,
+        "BSTAR": 3.8780585e-05,
+        "MEAN_MOTION_DOT": 3.5e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 40069,
+      "name": "METEOR-M 2",
+      "object_id": "2014-037A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T05:20:18.165408Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "METEOR-M 2",
+        "OBJECT_ID": "2014-037A",
+        "EPOCH": "2026-10-01T05:20:18.165408",
+        "MEAN_MOTION": 14.21486543,
+        "ECCENTRICITY": 0.00069961,
+        "INCLINATION": 98.5267,
+        "RA_OF_ASC_NODE": 246.2756,
+        "ARG_OF_PERICENTER": 87.3361,
+        "MEAN_ANOMALY": 272.8618,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 40069,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 63438,
+        "BSTAR": 1.7769583e-05,
+        "MEAN_MOTION_DOT": -3e-08,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 40267,
+      "name": "HIMAWARI-8",
+      "object_id": "2014-060A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T21:14:23.345088Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "HIMAWARI-8",
+        "OBJECT_ID": "2014-060A",
+        "EPOCH": "2026-09-30T21:14:23.345088",
+        "MEAN_MOTION": 1.00268046,
+        "ECCENTRICITY": 0.00014016,
+        "INCLINATION": 0.0023,
+        "RA_OF_ASC_NODE": 177.4195,
+        "ARG_OF_PERICENTER": 52.1301,
+        "MEAN_ANOMALY": 239.338,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 40267,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 4382,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -2.76e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 40367,
+      "name": "FENGYUN 2G",
+      "object_id": "2014-090A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T23:43:50.133216Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "FENGYUN 2G",
+        "OBJECT_ID": "2014-090A",
+        "EPOCH": "2026-09-30T23:43:50.133216",
+        "MEAN_MOTION": 1.00266426,
+        "ECCENTRICITY": 0.00043409,
+        "INCLINATION": 5.899,
+        "RA_OF_ASC_NODE": 71.479,
+        "ARG_OF_PERICENTER": 185.9222,
+        "MEAN_ANOMALY": 207.9706,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 40367,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 4306,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -3e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 40732,
+      "name": "METEOSAT-11 (MSG-4)",
+      "object_id": "2015-034A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T13:02:20.332032Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "METEOSAT-11 (MSG-4)",
+        "OBJECT_ID": "2015-034A",
+        "EPOCH": "2026-09-30T13:02:20.332032",
+        "MEAN_MOTION": 1.0027798,
+        "ECCENTRICITY": 4.862e-05,
+        "INCLINATION": 3.4603,
+        "RA_OF_ASC_NODE": 70.339,
+        "ARG_OF_PERICENTER": 86.7676,
+        "MEAN_ANOMALY": 57.2257,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 40732,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 827,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": 6.6e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41105,
+      "name": "ELEKTRO-L 2",
+      "object_id": "2015-074A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T06:04:48.556992Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "ELEKTRO-L 2",
+        "OBJECT_ID": "2015-074A",
+        "EPOCH": "2026-09-30T06:04:48.556992",
+        "MEAN_MOTION": 1.00271341,
+        "ECCENTRICITY": 0.00024244,
+        "INCLINATION": 6.9509,
+        "RA_OF_ASC_NODE": 69.1854,
+        "ARG_OF_PERICENTER": 192.0357,
+        "MEAN_ANOMALY": 184.4928,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41105,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 3956,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -1.13e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41335,
+      "name": "SENTINEL-3A",
+      "object_id": "2016-011A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T01:01:14.415744Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SENTINEL-3A",
+        "OBJECT_ID": "2016-011A",
+        "EPOCH": "2026-10-01T01:01:14.415744",
+        "MEAN_MOTION": 14.26737645,
+        "ECCENTRICITY": 0.00012508,
+        "INCLINATION": 98.6259,
+        "RA_OF_ASC_NODE": 339.895,
+        "ARG_OF_PERICENTER": 105.4213,
+        "MEAN_ANOMALY": 254.7106,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41335,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 55315,
+        "BSTAR": 3.4135603e-05,
+        "MEAN_MOTION_DOT": 3.9e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41752,
+      "name": "INSAT-3DR",
+      "object_id": "2016-054A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T23:08:02.369184Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "INSAT-3DR",
+        "OBJECT_ID": "2016-054A",
+        "EPOCH": "2026-09-30T23:08:02.369184",
+        "MEAN_MOTION": 1.00270852,
+        "ECCENTRICITY": 0.00125223,
+        "INCLINATION": 0.0751,
+        "RA_OF_ASC_NODE": 87.7387,
+        "ARG_OF_PERICENTER": 176.6304,
+        "MEAN_ANOMALY": 166.3719,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41752,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 3687,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -7.7e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41836,
+      "name": "HIMAWARI-9",
+      "object_id": "2016-064A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-29T23:47:38.891040Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "HIMAWARI-9",
+        "OBJECT_ID": "2016-064A",
+        "EPOCH": "2026-09-29T23:47:38.891040",
+        "MEAN_MOTION": 1.00273774,
+        "ECCENTRICITY": 0.00020654,
+        "INCLINATION": 0.0105,
+        "RA_OF_ASC_NODE": 72.2386,
+        "ARG_OF_PERICENTER": 171.6417,
+        "MEAN_ANOMALY": 262.5744,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41836,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 3626,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -2.71e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41866,
+      "name": "GOES 16",
+      "object_id": "2016-071A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T00:28:15.873024Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "GOES 16",
+        "OBJECT_ID": "2016-071A",
+        "EPOCH": "2026-10-01T00:28:15.873024",
+        "MEAN_MOTION": 1.00271037,
+        "ECCENTRICITY": 0.0002249,
+        "INCLINATION": 0.5959,
+        "RA_OF_ASC_NODE": 84.0518,
+        "ARG_OF_PERICENTER": 145.73,
+        "MEAN_ANOMALY": 42.3717,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41866,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 3616,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -9.1e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41882,
+      "name": "FENGYUN 4A",
+      "object_id": "2016-077A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T00:27:21.743424Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "FENGYUN 4A",
+        "OBJECT_ID": "2016-077A",
+        "EPOCH": "2026-10-01T00:27:21.743424",
+        "MEAN_MOTION": 1.00268504,
+        "ECCENTRICITY": 0.0008791,
+        "INCLINATION": 2.5888,
+        "RA_OF_ASC_NODE": 78.8999,
+        "ARG_OF_PERICENTER": 210.4035,
+        "MEAN_ANOMALY": 210.2702,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41882,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 3599,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -3.58e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41884,
+      "name": "CYGFM05",
+      "object_id": "2016-078A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T02:18:09.460512Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CYGFM05",
+        "OBJECT_ID": "2016-078A",
+        "EPOCH": "2026-10-01T02:18:09.460512",
+        "MEAN_MOTION": 15.61316227,
+        "ECCENTRICITY": 0.00040165,
+        "INCLINATION": 34.956,
+        "RA_OF_ASC_NODE": 276.8544,
+        "ARG_OF_PERICENTER": 97.3217,
+        "MEAN_ANOMALY": 262.7965,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41884,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 54529,
+        "BSTAR": 0.00020944628,
+        "MEAN_MOTION_DOT": 0.00018414,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41885,
+      "name": "CYGFM04",
+      "object_id": "2016-078B",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T00:07:43.431456Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CYGFM04",
+        "OBJECT_ID": "2016-078B",
+        "EPOCH": "2026-10-01T00:07:43.431456",
+        "MEAN_MOTION": 15.67828849,
+        "ECCENTRICITY": 0.00044111,
+        "INCLINATION": 34.9306,
+        "RA_OF_ASC_NODE": 239.0114,
+        "ARG_OF_PERICENTER": 174.8515,
+        "MEAN_ANOMALY": 185.2258,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41885,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 54558,
+        "BSTAR": 0.00024037114,
+        "MEAN_MOTION_DOT": 0.00027453,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41886,
+      "name": "CYGFM02",
+      "object_id": "2016-078C",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T22:36:04.165632Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CYGFM02",
+        "OBJECT_ID": "2016-078C",
+        "EPOCH": "2026-09-30T22:36:04.165632",
+        "MEAN_MOTION": 15.72901853,
+        "ECCENTRICITY": 0.00053299,
+        "INCLINATION": 34.9387,
+        "RA_OF_ASC_NODE": 230.0402,
+        "ARG_OF_PERICENTER": 185.763,
+        "MEAN_ANOMALY": 174.3038,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41886,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 54578,
+        "BSTAR": 0.00026836615,
+        "MEAN_MOTION_DOT": 0.00037988,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41887,
+      "name": "CYGFM01",
+      "object_id": "2016-078D",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T02:18:55.513440Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CYGFM01",
+        "OBJECT_ID": "2016-078D",
+        "EPOCH": "2026-10-01T02:18:55.513440",
+        "MEAN_MOTION": 15.62187906,
+        "ECCENTRICITY": 0.00036534,
+        "INCLINATION": 34.9389,
+        "RA_OF_ASC_NODE": 276.9529,
+        "ARG_OF_PERICENTER": 92.5877,
+        "MEAN_ANOMALY": 267.5267,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41887,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 54525,
+        "BSTAR": 0.00020728264,
+        "MEAN_MOTION_DOT": 0.00018854,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41888,
+      "name": "CYGFM08",
+      "object_id": "2016-078E",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T00:54:29.854656Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CYGFM08",
+        "OBJECT_ID": "2016-078E",
+        "EPOCH": "2026-10-01T00:54:29.854656",
+        "MEAN_MOTION": 15.65773563,
+        "ECCENTRICITY": 0.00051422,
+        "INCLINATION": 34.942,
+        "RA_OF_ASC_NODE": 253.6862,
+        "ARG_OF_PERICENTER": 139.7675,
+        "MEAN_ANOMALY": 220.3433,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41888,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 54554,
+        "BSTAR": 0.00023323678,
+        "MEAN_MOTION_DOT": 0.00024495,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41890,
+      "name": "CYGFM07",
+      "object_id": "2016-078G",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T23:44:52.094976Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CYGFM07",
+        "OBJECT_ID": "2016-078G",
+        "EPOCH": "2026-09-30T23:44:52.094976",
+        "MEAN_MOTION": 15.65914365,
+        "ECCENTRICITY": 0.0004606,
+        "INCLINATION": 34.943,
+        "RA_OF_ASC_NODE": 242.2454,
+        "ARG_OF_PERICENTER": 166.4146,
+        "MEAN_ANOMALY": 193.6706,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41890,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 54556,
+        "BSTAR": 0.00023145726,
+        "MEAN_MOTION_DOT": 0.00024443,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 41891,
+      "name": "CYGFM03",
+      "object_id": "2016-078H",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T00:36:29.376000Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "CYGFM03",
+        "OBJECT_ID": "2016-078H",
+        "EPOCH": "2026-10-01T00:36:29.376000",
+        "MEAN_MOTION": 15.65893256,
+        "ECCENTRICITY": 0.00035487,
+        "INCLINATION": 34.9389,
+        "RA_OF_ASC_NODE": 243.92,
+        "ARG_OF_PERICENTER": 156.0093,
+        "MEAN_ANOMALY": 204.0799,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 41891,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 54554,
+        "BSTAR": 0.00023160039,
+        "MEAN_MOTION_DOT": 0.00024432,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 43010,
+      "name": "FENGYUN 3D",
+      "object_id": "2017-072A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T06:45:38.651904Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "FENGYUN 3D",
+        "OBJECT_ID": "2017-072A",
+        "EPOCH": "2026-10-01T06:45:38.651904",
+        "MEAN_MOTION": 14.19758714,
+        "ECCENTRICITY": 0.00024587,
+        "INCLINATION": 99.0274,
+        "RA_OF_ASC_NODE": 250.6895,
+        "ARG_OF_PERICENTER": 94.7618,
+        "MEAN_ANOMALY": 265.3838,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 43010,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 46004,
+        "BSTAR": 0.00020978665,
+        "MEAN_MOTION_DOT": 3.98e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 43013,
+      "name": "NOAA 20 (JPSS-1)",
+      "object_id": "2017-073A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T01:59:04.833312Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "NOAA 20 (JPSS-1)",
+        "OBJECT_ID": "2017-073A",
+        "EPOCH": "2026-10-01T01:59:04.833312",
+        "MEAN_MOTION": 14.1952842,
+        "ECCENTRICITY": 9.136e-05,
+        "INCLINATION": 98.7842,
+        "RA_OF_ASC_NODE": 212.6297,
+        "ARG_OF_PERICENTER": 33.6236,
+        "MEAN_ANOMALY": 326.4998,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 43013,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 45949,
+        "BSTAR": 4.3888242e-05,
+        "MEAN_MOTION_DOT": 4.8e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 43226,
+      "name": "GOES 17",
+      "object_id": "2018-022A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T01:22:45.420960Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "GOES 17",
+        "OBJECT_ID": "2018-022A",
+        "EPOCH": "2026-10-01T01:22:45.420960",
+        "MEAN_MOTION": 1.00269951,
+        "ECCENTRICITY": 0.00013908,
+        "INCLINATION": 1.2028,
+        "RA_OF_ASC_NODE": 83.8877,
+        "ARG_OF_PERICENTER": 153.6727,
+        "MEAN_ANOMALY": 63.4455,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 43226,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 3148,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -1.83e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 43437,
+      "name": "SENTINEL-3B",
+      "object_id": "2018-039A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T19:19:34.280832Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "SENTINEL-3B",
+        "OBJECT_ID": "2018-039A",
+        "EPOCH": "2026-09-30T19:19:34.280832",
+        "MEAN_MOTION": 14.26735542,
+        "ECCENTRICITY": 0.00011151,
+        "INCLINATION": 98.6256,
+        "RA_OF_ASC_NODE": 339.8103,
+        "ARG_OF_PERICENTER": 68.7838,
+        "MEAN_ANOMALY": 291.3461,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 43437,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 43918,
+        "BSTAR": 3.3238426e-05,
+        "MEAN_MOTION_DOT": 3.7e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 43491,
+      "name": "FENGYUN 2H",
+      "object_id": "2018-050A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T23:37:58.194912Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "FENGYUN 2H",
+        "OBJECT_ID": "2018-050A",
+        "EPOCH": "2026-09-30T23:37:58.194912",
+        "MEAN_MOTION": 1.00270472,
+        "ECCENTRICITY": 0.00030195,
+        "INCLINATION": 3.2951,
+        "RA_OF_ASC_NODE": 77.7267,
+        "ARG_OF_PERICENTER": 153.4965,
+        "MEAN_ANOMALY": 212.3155,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 43491,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 3050,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -1.29e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 43689,
+      "name": "METOP-C",
+      "object_id": "2018-087A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T00:02:12.207552Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "METOP-C",
+        "OBJECT_ID": "2018-087A",
+        "EPOCH": "2026-10-01T00:02:12.207552",
+        "MEAN_MOTION": 14.21475532,
+        "ECCENTRICITY": 3.481e-05,
+        "INCLINATION": 98.7314,
+        "RA_OF_ASC_NODE": 331.7844,
+        "ARG_OF_PERICENTER": 93.9018,
+        "MEAN_ANOMALY": 266.2199,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 43689,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 40986,
+        "BSTAR": 3.5745855e-05,
+        "MEAN_MOTION_DOT": 3.4e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 43823,
+      "name": "GEO-KOMPSAT-2A",
+      "object_id": "2018-100A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-29T11:56:30.732288Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "GEO-KOMPSAT-2A",
+        "OBJECT_ID": "2018-100A",
+        "EPOCH": "2026-09-29T11:56:30.732288",
+        "MEAN_MOTION": 1.00271264,
+        "ECCENTRICITY": 0.00014127,
+        "INCLINATION": 0.0465,
+        "RA_OF_ASC_NODE": 30.1127,
+        "ARG_OF_PERICENTER": 99.9475,
+        "MEAN_ANOMALY": 185.6193,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 43823,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 2867,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -3.4e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 44387,
+      "name": "METEOR-M2 2",
+      "object_id": "2019-038A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T05:53:07.986048Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "METEOR-M2 2",
+        "OBJECT_ID": "2019-038A",
+        "EPOCH": "2026-10-01T05:53:07.986048",
+        "MEAN_MOTION": 14.24389912,
+        "ECCENTRICITY": 0.0002351,
+        "INCLINATION": 98.9265,
+        "RA_OF_ASC_NODE": 263.154,
+        "ARG_OF_PERICENTER": 75.6931,
+        "MEAN_ANOMALY": 284.4508,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 44387,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 37639,
+        "BSTAR": 0.00013606131,
+        "MEAN_MOTION_DOT": 2.69e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 49008,
+      "name": "FENGYUN 3E",
+      "object_id": "2021-062A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:47:25.528992Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "FENGYUN 3E",
+        "OBJECT_ID": "2021-062A",
+        "EPOCH": "2026-10-01T07:47:25.528992",
+        "MEAN_MOTION": 14.19912835,
+        "ECCENTRICITY": 0.00024249,
+        "INCLINATION": 98.7554,
+        "RA_OF_ASC_NODE": 276.5775,
+        "ARG_OF_PERICENTER": 118.6505,
+        "MEAN_ANOMALY": 241.4916,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 49008,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 27164,
+        "BSTAR": 7.8137235e-05,
+        "MEAN_MOTION_DOT": 1.22e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 51850,
+      "name": "GOES 18",
+      "object_id": "2022-021A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T02:30:03.857184Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "GOES 18",
+        "OBJECT_ID": "2022-021A",
+        "EPOCH": "2026-10-01T02:30:03.857184",
+        "MEAN_MOTION": 1.00271377,
+        "ECCENTRICITY": 6.992e-05,
+        "INCLINATION": 0.0385,
+        "RA_OF_ASC_NODE": 14.6229,
+        "ARG_OF_PERICENTER": 244.9913,
+        "MEAN_ANOMALY": 10.7654,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 51850,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 765,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": 9.6e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 54234,
+      "name": "NOAA 21 (JPSS-2)",
+      "object_id": "2022-150A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T02:43:49.774656Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "NOAA 21 (JPSS-2)",
+        "OBJECT_ID": "2022-150A",
+        "EPOCH": "2026-10-01T02:43:49.774656",
+        "MEAN_MOTION": 14.19551279,
+        "ECCENTRICITY": 6.963e-05,
+        "INCLINATION": 98.7124,
+        "RA_OF_ASC_NODE": 211.1431,
+        "ARG_OF_PERICENTER": 236.0154,
+        "MEAN_ANOMALY": 124.0957,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 54234,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 20157,
+        "BSTAR": 2.4395451e-05,
+        "MEAN_MOTION_DOT": 8e-08,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 54743,
+      "name": "METEOSAT-12 (MTG-I1)",
+      "object_id": "2022-170C",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T23:15:15.373152Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "METEOSAT-12 (MTG-I1)",
+        "OBJECT_ID": "2022-170C",
+        "EPOCH": "2026-09-30T23:15:15.373152",
+        "MEAN_MOTION": 1.0027399,
+        "ECCENTRICITY": 0.00031677,
+        "INCLINATION": 0.7501,
+        "RA_OF_ASC_NODE": 21.7302,
+        "ARG_OF_PERICENTER": 97.4341,
+        "MEAN_ANOMALY": 238.9792,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 54743,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 1403,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -8e-08,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 55973,
+      "name": "TIANMU-1 03",
+      "object_id": "2023-039A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T06:36:02.203200Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 03",
+        "OBJECT_ID": "2023-039A",
+        "EPOCH": "2026-10-01T06:36:02.203200",
+        "MEAN_MOTION": 15.50029801,
+        "ECCENTRICITY": 0.0003693,
+        "INCLINATION": 97.5273,
+        "RA_OF_ASC_NODE": 92.6642,
+        "ARG_OF_PERICENTER": 80.2267,
+        "MEAN_ANOMALY": 279.9401,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 55973,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 19725,
+        "BSTAR": 0.00017298876,
+        "MEAN_MOTION_DOT": 9.607e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 55974,
+      "name": "TIANMU-1 04",
+      "object_id": "2023-039B",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T06:49:56.042688Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 04",
+        "OBJECT_ID": "2023-039B",
+        "EPOCH": "2026-10-01T06:49:56.042688",
+        "MEAN_MOTION": 15.50727101,
+        "ECCENTRICITY": 0.00046633,
+        "INCLINATION": 97.5195,
+        "RA_OF_ASC_NODE": 91.8435,
+        "ARG_OF_PERICENTER": 65.582,
+        "MEAN_ANOMALY": 294.5918,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 55974,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 19727,
+        "BSTAR": 0.00017958332,
+        "MEAN_MOTION_DOT": 0.0001023,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 55975,
+      "name": "TIANMU-1 05",
+      "object_id": "2023-039C",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:49:23.242080Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 05",
+        "OBJECT_ID": "2023-039C",
+        "EPOCH": "2026-10-01T07:49:23.242080",
+        "MEAN_MOTION": 15.49937846,
+        "ECCENTRICITY": 0.00035496,
+        "INCLINATION": 97.5252,
+        "RA_OF_ASC_NODE": 92.2928,
+        "ARG_OF_PERICENTER": 89.3194,
+        "MEAN_ANOMALY": 270.8463,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 55975,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 19724,
+        "BSTAR": 0.00018178699,
+        "MEAN_MOTION_DOT": 0.00010069,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 55976,
+      "name": "TIANMU-1 06",
+      "object_id": "2023-039D",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:05:57.476832Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 06",
+        "OBJECT_ID": "2023-039D",
+        "EPOCH": "2026-10-01T07:05:57.476832",
+        "MEAN_MOTION": 15.50599286,
+        "ECCENTRICITY": 0.00033127,
+        "INCLINATION": 97.5261,
+        "RA_OF_ASC_NODE": 93.0082,
+        "ARG_OF_PERICENTER": 85.1866,
+        "MEAN_ANOMALY": 274.9764,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 55976,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 19727,
+        "BSTAR": 0.0001768178,
+        "MEAN_MOTION_DOT": 0.00010023,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 56232,
+      "name": "FENGYUN 3G",
+      "object_id": "2023-055A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-29T06:18:58.791744Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "FENGYUN 3G",
+        "OBJECT_ID": "2023-055A",
+        "EPOCH": "2026-09-29T06:18:58.791744",
+        "MEAN_MOTION": 15.54217677,
+        "ECCENTRICITY": 0.00109547,
+        "INCLINATION": 49.9916,
+        "RA_OF_ASC_NODE": 169.2876,
+        "ARG_OF_PERICENTER": 97.6393,
+        "MEAN_ANOMALY": 262.582,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 56232,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 19618,
+        "BSTAR": 0.00025793266,
+        "MEAN_MOTION_DOT": 0.00016751,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 57166,
+      "name": "METEOR-M2 3",
+      "object_id": "2023-091A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T08:02:03.084288Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "METEOR-M2 3",
+        "OBJECT_ID": "2023-091A",
+        "EPOCH": "2026-10-01T08:02:03.084288",
+        "MEAN_MOTION": 14.24053346,
+        "ECCENTRICITY": 0.00033616,
+        "INCLINATION": 98.597,
+        "RA_OF_ASC_NODE": 327.0787,
+        "ARG_OF_PERICENTER": 206.5763,
+        "MEAN_ANOMALY": 153.5244,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 57166,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 16962,
+        "BSTAR": 4.198054e-06,
+        "MEAN_MOTION_DOT": -3.3e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 57399,
+      "name": "TIANMU-1 07",
+      "object_id": "2023-101A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T06:55:13.559232Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 07",
+        "OBJECT_ID": "2023-101A",
+        "EPOCH": "2026-10-01T06:55:13.559232",
+        "MEAN_MOTION": 15.30839259,
+        "ECCENTRICITY": 0.00041232,
+        "INCLINATION": 97.248,
+        "RA_OF_ASC_NODE": 322.5326,
+        "ARG_OF_PERICENTER": 109.8618,
+        "MEAN_ANOMALY": 250.3068,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 57399,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 17787,
+        "BSTAR": 0.00010835293,
+        "MEAN_MOTION_DOT": 3.155e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 57400,
+      "name": "TIANMU-1 08",
+      "object_id": "2023-101B",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:41:14.328672Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 08",
+        "OBJECT_ID": "2023-101B",
+        "EPOCH": "2026-10-01T07:41:14.328672",
+        "MEAN_MOTION": 15.30836667,
+        "ECCENTRICITY": 0.00055323,
+        "INCLINATION": 97.2468,
+        "RA_OF_ASC_NODE": 322.3187,
+        "ARG_OF_PERICENTER": 101.6444,
+        "MEAN_ANOMALY": 258.5418,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 57400,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 17787,
+        "BSTAR": 0.0001076547,
+        "MEAN_MOTION_DOT": 3.134e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 57401,
+      "name": "TIANMU-1 09",
+      "object_id": "2023-101C",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:16:00.101280Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 09",
+        "OBJECT_ID": "2023-101C",
+        "EPOCH": "2026-10-01T07:16:00.101280",
+        "MEAN_MOTION": 15.30823671,
+        "ECCENTRICITY": 0.00049481,
+        "INCLINATION": 97.2427,
+        "RA_OF_ASC_NODE": 321.6605,
+        "ARG_OF_PERICENTER": 113.3193,
+        "MEAN_ANOMALY": 246.857,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 57401,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 17787,
+        "BSTAR": 0.00011324614,
+        "MEAN_MOTION_DOT": 3.299e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 57402,
+      "name": "TIANMU-1 10",
+      "object_id": "2023-101D",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T08:02:36.686112Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 10",
+        "OBJECT_ID": "2023-101D",
+        "EPOCH": "2026-10-01T08:02:36.686112",
+        "MEAN_MOTION": 15.30878288,
+        "ECCENTRICITY": 0.00061676,
+        "INCLINATION": 97.2506,
+        "RA_OF_ASC_NODE": 322.8564,
+        "ARG_OF_PERICENTER": 111.8583,
+        "MEAN_ANOMALY": 248.3315,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 57402,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 17787,
+        "BSTAR": 0.0001132872,
+        "MEAN_MOTION_DOT": 3.307e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 57490,
+      "name": "FENGYUN 3F",
+      "object_id": "2023-111A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:20:20.269824Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "FENGYUN 3F",
+        "OBJECT_ID": "2023-111A",
+        "EPOCH": "2026-10-01T07:20:20.269824",
+        "MEAN_MOTION": 14.19952955,
+        "ECCENTRICITY": 0.00014331,
+        "INCLINATION": 98.6738,
+        "RA_OF_ASC_NODE": 342.2824,
+        "ARG_OF_PERICENTER": 107.2608,
+        "MEAN_ANOMALY": 252.8726,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 57490,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 16392,
+        "BSTAR": 2.0970647e-05,
+        "MEAN_MOTION_DOT": 1e-08,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 58645,
+      "name": "TIANMU-1 11",
+      "object_id": "2023-205A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:27:30.134880Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 11",
+        "OBJECT_ID": "2023-205A",
+        "EPOCH": "2026-10-01T07:27:30.134880",
+        "MEAN_MOTION": 15.27895938,
+        "ECCENTRICITY": 0.0008365,
+        "INCLINATION": 97.3419,
+        "RA_OF_ASC_NODE": 294.2559,
+        "ARG_OF_PERICENTER": 1.1738,
+        "MEAN_ANOMALY": 358.952,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 58645,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 15372,
+        "BSTAR": 0.00010724929,
+        "MEAN_MOTION_DOT": 2.849e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 58646,
+      "name": "TIANMU-1 12",
+      "object_id": "2023-205B",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:11:36.333312Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 12",
+        "OBJECT_ID": "2023-205B",
+        "EPOCH": "2026-10-01T07:11:36.333312",
+        "MEAN_MOTION": 15.2757015,
+        "ECCENTRICITY": 0.00067402,
+        "INCLINATION": 97.341,
+        "RA_OF_ASC_NODE": 293.9431,
+        "ARG_OF_PERICENTER": 348.112,
+        "MEAN_ANOMALY": 11.9959,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 58646,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 15370,
+        "BSTAR": 0.00010848682,
+        "MEAN_MOTION_DOT": 2.853e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 58647,
+      "name": "TIANMU-1 13",
+      "object_id": "2023-205C",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:57:32.094144Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 13",
+        "OBJECT_ID": "2023-205C",
+        "EPOCH": "2026-10-01T07:57:32.094144",
+        "MEAN_MOTION": 15.27560799,
+        "ECCENTRICITY": 0.00049213,
+        "INCLINATION": 97.3436,
+        "RA_OF_ASC_NODE": 294.286,
+        "ARG_OF_PERICENTER": 329.0025,
+        "MEAN_ANOMALY": 31.0923,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 58647,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 15370,
+        "BSTAR": 0.00010563127,
+        "MEAN_MOTION_DOT": 2.774e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 58648,
+      "name": "TIANMU-1 14",
+      "object_id": "2023-205D",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:32:52.508832Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 14",
+        "OBJECT_ID": "2023-205D",
+        "EPOCH": "2026-10-01T07:32:52.508832",
+        "MEAN_MOTION": 15.27583112,
+        "ECCENTRICITY": 0.00057927,
+        "INCLINATION": 97.3376,
+        "RA_OF_ASC_NODE": 293.3679,
+        "ARG_OF_PERICENTER": 333.4986,
+        "MEAN_ANOMALY": 26.5956,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 58648,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 15370,
+        "BSTAR": 0.00010879113,
+        "MEAN_MOTION_DOT": 2.862e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 58660,
+      "name": "TIANMU-1 19",
+      "object_id": "2023-208A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T06:34:26.816736Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 19",
+        "OBJECT_ID": "2023-208A",
+        "EPOCH": "2026-10-01T06:34:26.816736",
+        "MEAN_MOTION": 15.3300421,
+        "ECCENTRICITY": 0.00035494,
+        "INCLINATION": 97.4593,
+        "RA_OF_ASC_NODE": 31.2808,
+        "ARG_OF_PERICENTER": 306.5178,
+        "MEAN_ANOMALY": 53.5737,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 58660,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 15357,
+        "BSTAR": 0.00014934584,
+        "MEAN_MOTION_DOT": 4.681e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 58661,
+      "name": "TIANMU-1 20",
+      "object_id": "2023-208B",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:04:10.199136Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 20",
+        "OBJECT_ID": "2023-208B",
+        "EPOCH": "2026-10-01T07:04:10.199136",
+        "MEAN_MOTION": 15.34199767,
+        "ECCENTRICITY": 0.00056385,
+        "INCLINATION": 97.4538,
+        "RA_OF_ASC_NODE": 32.0495,
+        "ARG_OF_PERICENTER": 310.4,
+        "MEAN_ANOMALY": 49.675,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 58661,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 15368,
+        "BSTAR": 0.0001480877,
+        "MEAN_MOTION_DOT": 4.822e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 58662,
+      "name": "TIANMU-1 21",
+      "object_id": "2023-208C",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:25:02.047872Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 21",
+        "OBJECT_ID": "2023-208C",
+        "EPOCH": "2026-10-01T07:25:02.047872",
+        "MEAN_MOTION": 15.36789851,
+        "ECCENTRICITY": 0.00055572,
+        "INCLINATION": 97.4606,
+        "RA_OF_ASC_NODE": 35.2327,
+        "ARG_OF_PERICENTER": 301.5876,
+        "MEAN_ANOMALY": 58.4825,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 58662,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 15385,
+        "BSTAR": 0.00015936302,
+        "MEAN_MOTION_DOT": 5.647e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 58663,
+      "name": "TIANMU-1 22",
+      "object_id": "2023-208D",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:05:43.442880Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 22",
+        "OBJECT_ID": "2023-208D",
+        "EPOCH": "2026-10-01T07:05:43.442880",
+        "MEAN_MOTION": 15.32370194,
+        "ECCENTRICITY": 0.00028344,
+        "INCLINATION": 97.459,
+        "RA_OF_ASC_NODE": 31.14,
+        "ARG_OF_PERICENTER": 344.65,
+        "MEAN_ANOMALY": 15.4655,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 58663,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 15357,
+        "BSTAR": 0.00013981939,
+        "MEAN_MOTION_DOT": 4.29e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 58700,
+      "name": "TIANMU-1 15",
+      "object_id": "2024-004A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:28:42.467232Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 15",
+        "OBJECT_ID": "2024-004A",
+        "EPOCH": "2026-10-01T07:28:42.467232",
+        "MEAN_MOTION": 15.27573482,
+        "ECCENTRICITY": 0.00063705,
+        "INCLINATION": 97.4666,
+        "RA_OF_ASC_NODE": 100.5604,
+        "ARG_OF_PERICENTER": 333.2284,
+        "MEAN_ANOMALY": 26.8626,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 58700,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 15197,
+        "BSTAR": 0.00011530844,
+        "MEAN_MOTION_DOT": 3.034e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 58701,
+      "name": "TIANMU-1 16",
+      "object_id": "2024-004B",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T07:07:12.142848Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 16",
+        "OBJECT_ID": "2024-004B",
+        "EPOCH": "2026-10-01T07:07:12.142848",
+        "MEAN_MOTION": 15.27589473,
+        "ECCENTRICITY": 0.00051526,
+        "INCLINATION": 97.4618,
+        "RA_OF_ASC_NODE": 99.7197,
+        "ARG_OF_PERICENTER": 350.2446,
+        "MEAN_ANOMALY": 9.8692,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 58701,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 15197,
+        "BSTAR": 0.00011310909,
+        "MEAN_MOTION_DOT": 2.976e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 58702,
+      "name": "TIANMU-1 17",
+      "object_id": "2024-004C",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T06:45:16.579296Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 17",
+        "OBJECT_ID": "2024-004C",
+        "EPOCH": "2026-10-01T06:45:16.579296",
+        "MEAN_MOTION": 15.27675409,
+        "ECCENTRICITY": 0.00051734,
+        "INCLINATION": 97.4642,
+        "RA_OF_ASC_NODE": 100.2286,
+        "ARG_OF_PERICENTER": 359.4689,
+        "MEAN_ANOMALY": 0.6544,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 58702,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 15196,
+        "BSTAR": 0.00011185583,
+        "MEAN_MOTION_DOT": 2.95e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 58703,
+      "name": "TIANMU-1 18",
+      "object_id": "2024-004D",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T06:18:31.359744Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "TIANMU-1 18",
+        "OBJECT_ID": "2024-004D",
+        "EPOCH": "2026-10-01T06:18:31.359744",
+        "MEAN_MOTION": 15.27460919,
+        "ECCENTRICITY": 0.00046757,
+        "INCLINATION": 97.4659,
+        "RA_OF_ASC_NODE": 100.4779,
+        "ARG_OF_PERICENTER": 340.7994,
+        "MEAN_ANOMALY": 19.3068,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 58703,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 15196,
+        "BSTAR": 0.0001088251,
+        "MEAN_MOTION_DOT": 2.849e-05,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 58990,
+      "name": "INSAT-3DS",
+      "object_id": "2024-033A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T20:25:17.601888Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "INSAT-3DS",
+        "OBJECT_ID": "2024-033A",
+        "EPOCH": "2026-09-30T20:25:17.601888",
+        "MEAN_MOTION": 1.00270317,
+        "ECCENTRICITY": 0.00015416,
+        "INCLINATION": 0.01,
+        "RA_OF_ASC_NODE": 140.7012,
+        "ARG_OF_PERICENTER": 65.4272,
+        "MEAN_ANOMALY": 191.8838,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 58990,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 4812,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -1.56e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 59051,
+      "name": "METEOR-M2 4",
+      "object_id": "2024-039A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T06:12:38.020896Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "METEOR-M2 4",
+        "OBJECT_ID": "2024-039A",
+        "EPOCH": "2026-10-01T06:12:38.020896",
+        "MEAN_MOTION": 14.22438706,
+        "ECCENTRICITY": 0.00062475,
+        "INCLINATION": 98.7156,
+        "RA_OF_ASC_NODE": 232.285,
+        "ARG_OF_PERICENTER": 216.5847,
+        "MEAN_ANOMALY": 143.4905,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 59051,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 13434,
+        "BSTAR": 1.665698e-05,
+        "MEAN_MOTION_DOT": -7e-08,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 60133,
+      "name": "GOES 19",
+      "object_id": "2024-119A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-10-01T00:36:37.571040Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "GOES 19",
+        "OBJECT_ID": "2024-119A",
+        "EPOCH": "2026-10-01T00:36:37.571040",
+        "MEAN_MOTION": 1.00271193,
+        "ECCENTRICITY": 8.307e-05,
+        "INCLINATION": 0.0427,
+        "RA_OF_ASC_NODE": 23.0109,
+        "ARG_OF_PERICENTER": 241.1826,
+        "MEAN_ANOMALY": 39.5661,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 60133,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 802,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -2.49e-06,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 64723,
+      "name": "MTG-S1",
+      "object_id": "2025-143A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T23:15:22.860576Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "MTG-S1",
+        "OBJECT_ID": "2025-143A",
+        "EPOCH": "2026-09-30T23:15:22.860576",
+        "MEAN_MOTION": 1.002741,
+        "ECCENTRICITY": 0.00042017,
+        "INCLINATION": 0.6151,
+        "RA_OF_ASC_NODE": 344.0781,
+        "ARG_OF_PERICENTER": 256.7639,
+        "MEAN_ANOMALY": 117.531,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 64723,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 448,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": -6e-08,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 65159,
+      "name": "METOP-SGA1",
+      "object_id": "2025-172A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T21:28:45.789888Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "METOP-SGA1",
+        "OBJECT_ID": "2025-172A",
+        "EPOCH": "2026-09-30T21:28:45.789888",
+        "MEAN_MOTION": 14.21468442,
+        "ECCENTRICITY": 8.317e-05,
+        "INCLINATION": 98.7428,
+        "RA_OF_ASC_NODE": 331.7677,
+        "ARG_OF_PERICENTER": 99.4296,
+        "MEAN_ANOMALY": 260.6975,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 65159,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 5880,
+        "BSTAR": 2.2591127e-05,
+        "MEAN_MOTION_DOT": 5e-08,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 65815,
+      "name": "FENGYUN 3H",
+      "object_id": "2025-219A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T19:26:49.222752Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "FENGYUN 3H",
+        "OBJECT_ID": "2025-219A",
+        "EPOCH": "2026-09-30T19:26:49.222752",
+        "MEAN_MOTION": 14.19934889,
+        "ECCENTRICITY": 0.00015223,
+        "INCLINATION": 98.6842,
+        "RA_OF_ASC_NODE": 212.552,
+        "ARG_OF_PERICENTER": 90.4105,
+        "MEAN_ANOMALY": 269.7246,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 65815,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 5237,
+        "BSTAR": 3.3852838e-05,
+        "MEAN_MOTION_DOT": 2.8e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    },
+    {
+      "norad_id": 100530,
+      "name": "MTG-I2",
+      "object_id": "2026-198A",
+      "groups": [
+        "weather"
+      ],
+      "epoch": "2026-09-30T21:33:43.989984Z",
+      "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=JSON",
+      "captured_at": "2026-10-01T15:12:58.789523+00:00",
+      "omm": {
+        "OBJECT_NAME": "MTG-I2",
+        "OBJECT_ID": "2026-198A",
+        "EPOCH": "2026-09-30T21:33:43.989984",
+        "MEAN_MOTION": 1.0027365,
+        "ECCENTRICITY": 4.681e-05,
+        "INCLINATION": 0.9654,
+        "RA_OF_ASC_NODE": 303.3944,
+        "ARG_OF_PERICENTER": 303.6573,
+        "MEAN_ANOMALY": 89.5664,
+        "EPHEMERIS_TYPE": 0,
+        "CLASSIFICATION_TYPE": "U",
+        "NORAD_CAT_ID": 100530,
+        "ELEMENT_SET_NO": 999,
+        "REV_AT_EPOCH": 39,
+        "BSTAR": 0,
+        "MEAN_MOTION_DOT": 2.2e-07,
+        "MEAN_MOTION_DDOT": 0
+      }
+    }
+  ],
+  "tiange_candidates": [
+    {
+      "norad_id": 55252,
+      "satcat": {
+        "OBJECT_NAME": "OBJECT E",
+        "OBJECT_ID": "2023-007E",
+        "NORAD_CAT_ID": 55252,
+        "OBJECT_TYPE": "PAY",
+        "OPS_STATUS_CODE": "D",
+        "OWNER": "PRC",
+        "LAUNCH_DATE": "2023-01-15",
+        "LAUNCH_SITE": "TAISC",
+        "DECAY_DATE": "2024-10-31",
+        "PERIOD": 87.3,
+        "INCLINATION": 97.27,
+        "APOGEE": 147,
+        "PERIGEE": 134,
+        "RCS": null,
+        "DATA_STATUS_CODE": "",
+        "ORBIT_CENTER": "EA",
+        "ORBIT_TYPE": "IMP"
+      },
+      "source_url": "https://celestrak.org/satcat/records.php?CATNR=55252",
+      "gp_source_url": "https://celestrak.org/NORAD/elements/gp.php?CATNR=55252&FORMAT=JSON",
+      "gp_status": "No GP data found",
+      "identity_mapping": "unresolved",
+      "captured_at": "2026-10-01T08:12:22.593810+00:00"
+    },
+    {
+      "norad_id": 55261,
+      "satcat": {
+        "OBJECT_NAME": "OBJECT P",
+        "OBJECT_ID": "2023-007P",
+        "NORAD_CAT_ID": 55261,
+        "OBJECT_TYPE": "PAY",
+        "OPS_STATUS_CODE": "D",
+        "OWNER": "PRC",
+        "LAUNCH_DATE": "2023-01-15",
+        "LAUNCH_SITE": "TAISC",
+        "DECAY_DATE": "2024-10-09",
+        "PERIOD": 88.27,
+        "INCLINATION": 97.27,
+        "APOGEE": 195,
+        "PERIGEE": 183,
+        "RCS": null,
+        "DATA_STATUS_CODE": "",
+        "ORBIT_CENTER": "EA",
+        "ORBIT_TYPE": "IMP"
+      },
+      "source_url": "https://celestrak.org/satcat/records.php?CATNR=55261",
+      "gp_source_url": "https://celestrak.org/NORAD/elements/gp.php?CATNR=55261&FORMAT=JSON",
+      "gp_status": "No GP data found",
+      "identity_mapping": "unresolved",
+      "captured_at": "2026-10-01T08:12:22.594119+00:00"
+    }
+  ]
+}

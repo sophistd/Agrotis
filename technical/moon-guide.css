@@ -1,0 +1,70 @@
+.moon-guide-entry{position:absolute;right:4.2vw;top:82px;pointer-events:auto}
+.moon-guide-entry .ghost-button{min-height:48px;font-size:11px;padding:12px 18px;gap:14px}
+.moon-guide-entry small{font-size:9px;color:#aaa;font-weight:400;letter-spacing:0}
+body[data-view='events'][data-event-page='space'][data-moon-guide='true'] #stage{position:fixed;inset:205px 42% 80px 0;width:auto;height:auto;visibility:visible;pointer-events:none}
+body[data-moon-guide='true'] #stage canvas{pointer-events:auto;cursor:ew-resize;touch-action:pan-y}
+.moon-guide{position:relative;min-height:calc(100svh - 86px);padding:30px 4.2vw 40px;pointer-events:none}
+.moon-guide-header{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}
+.moon-guide-header h1{font-size:clamp(26px,3vw,44px);letter-spacing:.055em;line-height:1.2;margin-top:12px}
+.moon-guide-header .tool-link{pointer-events:auto;white-space:nowrap}
+.moon-guide-card{margin:32px 0 0 59%;max-width:440px;pointer-events:auto;padding-bottom:20px}
+.moon-guide-progress{display:flex;align-items:center;gap:16px;color:#b8bcc2;font-size:10px;letter-spacing:.1em}
+.moon-guide-progress>div{display:flex;gap:4px;flex:1;max-width:92px}
+.moon-guide-progress i{height:2px;flex:1;background:#303236}
+.moon-guide-progress i.done{background:#ddd}
+.moon-guide-progress small{margin-left:auto;font-size:9px;letter-spacing:0;color:#888c93}
+.moon-guide-card h2{font-size:clamp(23px,2.25vw,34px);letter-spacing:.015em;line-height:1.5;margin:23px 0 14px;outline-offset:7px}
+.moon-guide .moon-guide-description{font-size:13px;line-height:1.85;color:#b8bcc2;max-width:370px}
+.moon-guide-scene-note{position:fixed;left:4.2vw;bottom:35px;width:49%;display:flex;justify-content:space-between;gap:12px;font-size:10px;color:#989ba1;letter-spacing:.02em}
+.moon-guide-observe{margin-top:26px;border-top:1px solid #303236;padding-top:18px}
+.moon-guide-position{display:flex;justify-content:space-between;align-items:center;font-size:12px}
+.moon-guide-position output{font-size:23px;font-weight:400;font-variant-numeric:tabular-nums}
+.moon-guide-observe input{width:100%;min-height:44px;margin:3px 0 0;accent-color:#fff;cursor:ew-resize;touch-action:pan-y}
+.moon-guide-range-labels{display:flex;justify-content:space-between;font-size:9px;color:#969aa2}
+.moon-guide #moon-guide-angle-help{font-size:10px;color:#999da5;line-height:1.7;margin-top:9px}
+.moon-guide-observe.is-locked{opacity:.58}
+.moon-guide-observe input:disabled{cursor:not-allowed}
+.moon-guide-relation{display:grid;grid-template-columns:minmax(0,1fr) 112px;align-items:center;gap:10px;margin:14px 0 19px}
+.moon-guide-diagram{display:block;width:100%;max-width:220px;height:166px;overflow:visible}
+.moon-guide-diagram text{fill:#b8bcc2;font-family:inherit;font-size:9px}
+.moon-guide-result{border-left:1px solid #303236;padding-left:19px;text-align:center}
+.moon-guide-result svg{width:58px;height:58px;display:block;margin:0 auto 8px}
+.moon-guide-result>span{font-size:9px;color:#969aa2;white-space:nowrap}
+.moon-guide .moon-guide-result p{font-size:13px;color:#ddd;margin-top:3px}
+.moon-guide-choices{display:flex;gap:8px;border:0;padding:0;margin:22px 0 10px;min-width:0}
+.moon-guide-choices legend{font-size:12px;line-height:1.7;margin-bottom:12px;color:#ddd}
+.moon-guide-choices button{flex:1;font-size:12px;min-height:44px}
+.moon-guide button:disabled{cursor:not-allowed;opacity:.45}
+.moon-guide button:disabled:hover{background:none!important;color:#b8bcc2!important}
+.moon-guide .moon-guide-feedback{font-size:11px;line-height:1.8;color:#b8bcc2;margin:12px 0 16px}
+.moon-guide-feedback strong{display:block;font-size:13px;color:#fff;margin-bottom:5px;font-weight:400}
+.moon-guide-feedback p{font-size:12px;line-height:1.8}
+.moon-guide-actions{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.moon-guide-actions>.ghost-button{font-size:11px;gap:12px;padding:12px 15px;min-height:48px;margin-left:auto}
+.moon-guide-back svg{transform:rotate(180deg)}
+.moon-guide-actions .tool-link{font-size:10px;white-space:nowrap}
+.moon-guide-footer{display:flex;align-items:center;flex-wrap:wrap;gap:4px 18px;border-top:1px solid #303236;margin-top:22px;padding-top:6px}
+.moon-guide-footer .tool-link{font-size:10px}
+#moon-guide-texture-status{font-size:10px;color:#b8bcc2;flex-basis:100%}
+#moon-guide-texture-status:empty{display:none}
+#moon-guide-texture-status .tool-link{margin-left:10px}
+.moon-guide .moon-guide-takeaway{border-left:1px solid #b8bcc2;padding-left:15px;font-size:14px;color:#eee;margin:10px 0 25px;line-height:1.85}
+.moon-guide-takeaway small{display:block;font-size:10px;color:#a6aab1;margin-top:8px}
+.moon-guide-source-links{display:flex;flex-wrap:wrap;align-items:center;gap:12px 25px;margin-top:25px}
+@media(min-width:761px) and (max-width:1050px){.moon-guide-card{margin-left:56%}.moon-guide-card h2{font-size:25px}.moon-guide-actions{gap:8px}.moon-guide-actions>.ghost-button{padding:12px 10px;font-size:10px}.moon-guide-scene-note{width:43%;flex-direction:column;gap:4px}.moon-guide-progress small{display:none}}
+@media(max-width:760px){
+ .moon-guide-entry{top:254px;left:22px;right:22px}.moon-guide-entry .ghost-button{width:100%;justify-content:space-between;min-height:52px}
+ body[data-view='events'][data-event-page='space'][data-moon-guide='true'] #stage{position:absolute;inset:228px 0 auto;height:270px;width:100%;pointer-events:none}
+ .moon-guide{padding:23px 22px 35px;min-height:0}
+ .moon-guide-header{gap:8px}.moon-guide-header .mission-label{font-size:8px}.moon-guide-header h1{font-size:28px;letter-spacing:.035em;margin-top:10px}
+ .moon-guide-header .tool-link{font-size:10px;min-height:44px;margin-top:0;gap:6px}
+ .moon-guide-card{margin:337px 0 0;max-width:none;padding-bottom:0}
+ .moon-guide-card h2{font-size:27px;line-height:1.5;margin:19px 0 12px}
+ .moon-guide .moon-guide-description{font-size:12px;max-width:none}
+ .moon-guide-scene-note{position:absolute;top:405px;bottom:auto;left:22px;right:22px;width:auto;justify-content:space-between;font-size:8px;gap:8px}
+ .moon-guide-observe{margin-top:21px;padding-top:14px}
+ .moon-guide-relation{margin-top:12px;grid-template-columns:minmax(0,1fr) 108px}
+ .moon-guide-actions>.ghost-button{font-size:11px;min-height:48px;padding:12px 13px;gap:10px}
+ .moon-guide-footer{margin-top:20px}.moon-guide-choices{margin-top:20px}
+}
+@media(prefers-reduced-motion:reduce){.moon-guide *{animation:none!important;transition:none!important}}

@@ -1,0 +1,62 @@
+.satellite-modes{display:flex;gap:24px;align-items:center;border-bottom:1px solid #ffffff20;padding:0 0 8px;pointer-events:auto}
+.satellite-modes button{display:flex;align-items:center;gap:7px;background:transparent;border:0;color:#8d9198;font-size:13px;min-height:44px;padding:10px 0;white-space:nowrap}
+.satellite-modes button.selected{color:#fff;box-shadow:0 14px 0 -12px #fff}
+.network-view>.satellite-modes{position:absolute;top:57px;left:4.2vw;right:4.2vw;max-width:600px}
+.orbit-actions{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;margin:18px 0 11px;pointer-events:auto}
+.orbit-actions .control-button{display:flex;gap:7px;padding:10px 12px;font-size:11px;min-height:44px;border:1px solid #ffffff35;background:#080a0dcc;color:#c9ced6}
+.orbit-actions button[aria-pressed="true"]{border-color:#c3d8fa;color:white;background:#18212c99}
+.orbit-path-note{display:block;color:#8b96a8;font-size:10px;line-height:1.7;margin:4px 0 12px}
+body[data-view="satellites"][data-satellite-page="network"] .network-heading>.ghost-button{display:none}
+body[data-view="satellites"][data-satellite-page="structure"] #stage{display:block;position:fixed;inset:86px 0 0;width:100%;height:auto;border:0;z-index:0;background:transparent}
+body[data-view="satellites"][data-satellite-page="structure"] #content{position:relative;pointer-events:none}
+.structure-view{position:relative;height:calc(100svh - 86px);min-height:720px;pointer-events:none;margin:0}
+.structure-view>.satellite-modes{position:absolute;top:25px;left:4.2vw;right:4.2vw;max-width:600px}
+.structure-heading{position:absolute;left:4.2vw;top:25%;width:310px}
+.structure-heading h1{font-size:clamp(33px,3.7vw,54px);line-height:1.1;letter-spacing:-.04em;margin:20px 0 12px;font-weight:500}
+.structure-heading>.object-english{font-size:11px;letter-spacing:.1em;line-height:1.7;margin-bottom:22px}
+.structure-heading>p{max-width:265px;color:#9da5af;font-size:13px;line-height:1.9;margin-bottom:27px}
+.structure-heading>.ghost-button{display:inline-flex;align-items:center;gap:8px;padding:15px 17px;font-size:11px;pointer-events:auto}
+.structure-heading>.source-link{display:block;margin-top:18px;pointer-events:auto;font-size:10px}
+.structure-anatomy{position:absolute;right:4.2vw;top:22%;width:185px}
+.structure-anatomy>small{font-size:10px;letter-spacing:.12em;color:#b3bac5}
+.structure-anatomy>div{border-top:1px solid #ffffff25;margin-top:18px;padding-top:16px;position:relative;padding-left:28px}
+.structure-anatomy>div>span{position:absolute;left:0;top:16px;color:#677282;font:11px D-DIN,sans-serif}
+.structure-anatomy strong{font-size:13px;font-weight:500}.structure-anatomy p{font-size:11px;line-height:1.9;color:#969faa;margin:8px 0}
+.structure-anatomy .structure-note{color:#738093;font-size:10px;margin-top:28px}
+.structure-switcher{position:absolute;left:4.2vw;bottom:39px;display:flex;align-items:center;gap:10px;pointer-events:auto}
+.structure-switcher>button{display:flex;align-items:center;gap:12px;padding:16px 20px;background:#070a0de8;border:1px solid #ffffff25;text-align:left;color:#929ba7;min-width:165px}
+.structure-switcher>button.selected{color:#fff;border-color:#b0becf}
+.structure-switcher strong,.structure-switcher span{font-size:12px}.structure-switcher small{display:block;font:10px D-DIN,sans-serif;color:#7f8996;margin-top:6px;letter-spacing:.06em}
+.structure-switcher>span{font-size:10px;color:#798593;max-width:130px;line-height:1.8;margin-left:8px}
+.structure-controls{position:absolute;right:4.2vw;bottom:47px;display:flex;gap:5px;align-items:center;pointer-events:auto}
+.structure-controls .control-button{display:flex;align-items:center;gap:8px;color:#e3e6eb;background:#070a0dcc;min-height:42px}
+.structure-controls>span{display:block;position:absolute;bottom:54px;right:0;white-space:nowrap;font-size:10px;color:#8793a2}
+.structure-status{position:absolute;left:50%;bottom:132px;transform:translateX(-50%);font-size:10px;letter-spacing:.03em;color:#91a0b2;text-align:center;max-width:420px;line-height:1.9}
+.structure-status button{pointer-events:auto;margin:8px}
+.structure-empty{position:absolute;top:31%;left:45%;width:320px;color:#596575;text-align:center}.structure-empty>svg{margin:0 auto 25px}.structure-empty strong{display:block;font-size:15px;color:#b8c2cf}.structure-empty p{font-size:12px;line-height:1.8;color:#8b97a7}
+@media(max-width:1050px) and (min-width:761px){.structure-heading{width:240px}.structure-heading h1{font-size:34px}.structure-heading>p{max-width:210px}.structure-anatomy{width:145px}.structure-switcher>span{display:none}}
+@media(max-width:760px){
+ .satellite-modes{gap:8px;padding-bottom:7px;justify-content:space-between}.satellite-modes button{font-size:11px;gap:4px}.satellite-modes button svg{width:14px;height:14px}
+ .network-view>.satellite-modes{top:50px;left:22px;right:22px}
+ .network-view{height:870px}
+ body[data-view="satellites"][data-satellite-page="network"] .network-heading{top:114px}
+ body[data-view="satellites"][data-satellite-page="network"] .network-heading h1{font-size:29px;margin-top:10px}
+ body[data-view="satellites"][data-satellite-page="network"] .network-heading p{display:none}
+ body[data-view="satellites"][data-satellite-page="network"] #stage{top:254px;height:365px}
+ .orbit-actions{justify-content:flex-start;margin-top:22px;gap:6px;clear:both}.orbit-actions .control-button{font-size:11px;padding:11px 12px}
+ .network-selection{top:545px}.network-camera{top:466px;bottom:auto}.network-index{bottom:30px}
+ body[data-view="satellites"][data-satellite-page="structure"] #stage{position:absolute;top:420px;inset-inline:0;bottom:auto;height:340px;width:100%}
+ .structure-name-break{display:none}
+ .structure-view{height:1135px;min-height:1135px}.structure-view>.satellite-modes{top:15px;left:22px;right:22px}
+ .structure-heading{top:92px;left:22px;right:22px;width:auto}.structure-heading h1{font-size:35px;margin:16px 0 9px}.structure-heading>.object-english{font-size:10px;margin-bottom:12px}.structure-heading>p{font-size:13px;max-width:310px;line-height:1.75;margin-bottom:18px}.structure-heading>.ghost-button{padding:11px 14px}.structure-heading>.source-link{position:absolute;right:0;bottom:13px;margin:0}
+ .structure-anatomy{top:747px;left:22px;right:22px;width:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.structure-anatomy>small{grid-column:1/-1}.structure-anatomy>div{margin-top:0;padding:14px 0 0}.structure-anatomy>div>span{position:static;display:block;margin-bottom:7px}.structure-anatomy strong{font-size:12px}.structure-anatomy p{font-size:12px;line-height:1.75}.structure-anatomy .structure-note{grid-column:1/-1;margin-top:0}
+ .structure-controls{top:606px;bottom:auto;left:22px;right:22px;justify-content:center}.structure-controls>span{top:51px;bottom:auto;right:auto}
+ .structure-status{top:688px;bottom:auto;left:22px;right:22px;transform:none;max-width:none}
+ .structure-switcher{bottom:30px;left:22px;right:22px;gap:8px;flex-wrap:wrap}.structure-switcher>button{min-width:0;flex:1;padding:14px 10px;gap:8px}.structure-switcher>button>span{font-size:11px}.structure-switcher>span{max-width:none;width:100%;margin:8px 0 0;text-align:center}
+ .structure-empty{top:380px;left:22px;right:22px;width:auto}
+}
+
+.structure-anatomy .anatomy-icon{display:block;color:#bec7d4;width:30px;height:30px;margin-bottom:12px;opacity:.75;transition:transform 160ms ease-out,opacity 140ms ease-out}
+.structure-anatomy>div{padding-left:0}.structure-anatomy>div>span{left:auto;right:0;top:20px}.structure-anatomy strong{font-size:14px}.structure-anatomy p{font-size:12px}.structure-anatomy .structure-note{font-size:11px;line-height:1.9}
+.structure-controls>span{font-size:11px}.structure-status{font-size:11px}.structure-switcher strong,.structure-switcher span{font-size:13px}.structure-heading>.source-link{font-size:11px}
+@media(max-width:760px){.structure-anatomy>div>span{position:absolute;top:17px}.structure-anatomy .anatomy-icon{width:26px;height:26px;margin-bottom:10px}.structure-anatomy strong{font-size:12px}.structure-anatomy p{font-size:12px}.structure-anatomy .structure-note{font-size:11px}.structure-switcher>span{font-size:11px}.structure-heading>.source-link{bottom:10px}.structure-controls{gap:7px}.structure-controls>span{font-size:11px}}

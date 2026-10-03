@@ -1,0 +1,21 @@
+{
+  "name": "agrotis",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "cesium": "1.145.0",
+    "meshoptimizer": "1.0.1",
+    "satellite.js": "6.0.2",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "0.183.1",
+    "typescript": "6.0.2",
+    "vite": "8.1.1"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "nili-patera-2007",
+  "title": "时间留下痕迹",
+  "region": "Nili Patera 沙丘场，约北纬8.7°、东经67.3°",
+  "body": "Mars",
+  "instrument": "Mars Reconnaissance Orbiter / HiRISE",
+  "credit": "NASA/JPL-Caltech/Univ. of Arizona/JHU-APL",
+  "sourcePage": "https://science.nasa.gov/resource/ripple-movement-on-sand-dune-in-nili-patera-mars/",
+  "sourceImage": "https://assets.science.nasa.gov/content/dam/science/psd/mars/downloadable_items/3/5/35650_PIA15680_Bridges_1.gif",
+  "sourceSha256": "3aff54e260f0421098bec61df86a6f7079a13c2397565565f7a24b65510570de",
+  "width": 533,
+  "height": 386,
+  "frames": [
+    {
+      "key": "before",
+      "date": "2007-06-30",
+      "observationId": "PSP_004339_1890",
+      "path": "/assets/mars-time/before.png",
+      "sha256": "5eaa231f0b2e60d68ddebd80a7d0455f164ba348b9890a53d17d1188d34e387d",
+      "sourceFrameIndex": 0,
+      "rgbPixelSha256": "bfde19de098f747d2270594ee4ea40196be578f5ea525764162b03a9f4c3002a"
+    },
+    {
+      "key": "after",
+      "date": "2007-10-13",
+      "observationId": "PSP_005684_1890",
+      "path": "/assets/mars-time/after.png",
+      "sha256": "b7b4b4ce0fc7364f97d0e4915d649f23b6771025b908d17cfd02cbdf9ddf5469",
+      "sourceFrameIndex": 1,
+      "rgbPixelSha256": "e9fc7d460e829ab1b83d28ac1848c095f140bf6c2fbcf2a7cebb8ce22b3265f4"
+    }
+  ],
+  "scale": {
+    "meters": 85,
+    "pixels": 182,
+    "pixelTolerance": 2,
+    "endpoints": [
+      [
+        164,
+        39
+      ],
+      [
+        346,
+        39
+      ]
+    ],
+    "method": "端点像素中心距离；每端约1px读数容差，属于本地近似标定"
+  },
+  "registration": {
+    "method": "NASA发布说明：影像先正射校正，再以两期共同固定基岩特征配准；该发布图的残余配准与正射误差未给出。",
+    "source": "https://science.nasa.gov/resource/ripple-movement-on-sand-dune-in-nili-patera-mars/",
+    "uncertaintyMeters": null
+  },
+  "processing": [
+    "保留官方533×386双帧GIF及SHA256；这是带85m比例尺的发布裁剪，不是原始RAW、完整科学产品或校准辐亮度。",
+    "Pillow按原顺序完整解码两帧并保存为RGB PNG；未裁剪、缩放、增强、插值、重采样或重新配准。PNG回读RGB像素哈希与原GIF解码帧一致。",
+    "帧0对应2007-06-30：按NASA文字说明，早期影像的沙丘下侧因光照显得较浅；本地目视与帧0一致。帧1对应2007-10-13；GIF本身无日期标签。",
+    "85m原图标尺纯黑横线在y=38至40、x=164至346；采用两端像素中心间距182px，标尺读数总容差±2px为本地假设。",
+    "比例约0.47m/发布图像素；不能套用源观测地图产品的0.25m/px。光照变化与沙纹重复会影响同一点的辨认。",
+    "局部基岩整数互相关诊断另存registration-diagnostic.json，只供对齐检阅，不赋予未知总误差数值。",
+    "交互测量仅估计105个地球日间的图上表观位移；不得解释为当下火星状态、风速或科研级位移。"
+  ],
+  "verifiedAt": "2026-10-02T12:22:05Z",
+  "license": {
+    "kind": "public-domain",
+    "source": "https://www.uahirise.org/PSP_004339_1890"
+  }
+}

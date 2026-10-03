@@ -1,0 +1,41 @@
+.observer-home{position:relative;height:calc(100svh - 190px);min-height:710px;pointer-events:none}
+.observer-home-local{position:absolute;left:4.2vw;top:28px;bottom:24px;width:280px;display:flex;flex-direction:column;gap:20px;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;pointer-events:auto}
+.observer-home-local .observer-home-title,.observer-home-local .observer-location,.observer-home-local .observer-selection{position:relative;inset:auto;width:100%;max-width:none;flex-shrink:0}
+.observer-home-local .observer-selection{margin-top:auto}
+.observer-home-title{position:absolute;left:4.2vw;top:28px;max-width:330px}
+.observer-home-title h1{font-size:clamp(34px,3.2vw,49px);letter-spacing:.03em;margin:13px 0}
+.observer-home-title p{font-size:12px;color:#aaa}
+.observer-now{margin-top:22px;display:flex;flex-direction:column;gap:6px}
+.observer-now>span{color:#d7e6f7;font-size:11px}.observer-now time{font-size:21px;color:#eee}
+.observer-now small{font-size:9px;color:#9299a3;max-width:290px;line-height:1.8}
+.observer-location{position:absolute;left:4.2vw;top:246px;width:280px;pointer-events:auto;padding:16px;background:#080a0deb;border:1px solid #ffffff25}
+.observer-label{display:block;font-size:10px;color:#999;margin-bottom:8px}.observer-location>strong{font-size:16px;font-weight:400}
+.observer-location p{font-size:10px;color:#a0a7b1;line-height:1.8;margin-top:9px}
+.observer-location-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:14px}.observer-location-actions button{font-size:11px;min-height:44px;padding:10px 12px}
+.observer-location .observer-message:empty{display:none}.observer-location details{border-top:1px solid #ffffff25;margin-top:14px;padding-top:8px}
+.observer-location summary{font-size:11px;min-height:44px;display:flex;align-items:center;justify-content:space-between;cursor:pointer}
+.observer-location form{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:10px 0}.observer-location label{display:flex;flex-direction:column;gap:6px;font-size:10px;min-width:0}.observer-location input{width:100%;min-width:0;min-height:44px;background:#101318;border:1px solid #ffffff35;color:#fff;padding:8px;font-size:13px}
+.observer-location form>button{grid-column:1/-1;font-size:11px;min-height:44px}.observer-city-presets{display:flex;justify-content:space-between;gap:8px}.observer-city-presets button{font-size:11px;min-height:44px}
+.observer-sky-panel{position:absolute;right:4.2vw;top:28px;width:340px;pointer-events:auto;background:#080a0df0;border:1px solid #ffffff25;padding:17px 16px}
+.observer-sky-heading{display:flex;justify-content:space-between;align-items:center;gap:12px}.observer-sky-heading small{font-size:9px;color:#a1a7b0}.observer-sky-heading h2{font-size:24px;letter-spacing:.04em;margin-top:6px}.observer-sky-heading h2 span{font-family:inherit;font-size:29px;color:#d7e6f7;margin-left:10px}
+.observer-sky-types{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:18px 0 12px}.observer-type{border:1px solid #ffffff25;min-height:44px;padding:8px 3px;display:flex;flex-direction:column;align-items:center;gap:3px;color:#a0a7b1;font-size:10px}.observer-type[aria-pressed='true']{border-color:#d3e5f9;color:#fff}.observer-type span{font-size:16px}
+.observer-sky-list{max-height:calc(100svh - 505px);min-height:110px;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#666 transparent}
+.observer-satellite{display:grid;grid-template-columns:22px minmax(0,1fr);gap:5px 12px;width:100%;text-align:left;min-height:77px;padding:12px 9px;border-top:1px solid #ffffff20;color:#afb8c4}
+.observer-satellite>svg{grid-row:1/3;margin-top:2px}.observer-satellite strong{font-size:12px;color:#eee;font-weight:400;display:block;overflow-wrap:anywhere}.observer-satellite small{font-size:9px;display:block;margin-top:4px}.observer-sat-look{grid-column:2;font-size:10px;color:#a5b6ce}.observer-satellite.selected{background:#2030436b;box-shadow:inset 2px 0 #bed4ef}
+.observer-empty{padding:22px 8px}.observer-empty strong{font-size:14px;font-weight:400;color:#eee}.observer-empty p{font-size:11px;line-height:1.8;color:#a0a7b1;margin-top:10px}.observer-empty button{font-size:10px;min-height:44px;margin-top:12px}
+.observer-sky-panel .observer-sky-scope{font-size:9px;color:#8f98a5;line-height:1.8;margin-top:13px}.observer-sky-panel .observer-sky-boundary{font-size:10px;color:#b2b8c1;line-height:1.8;margin:8px 0}.observer-sky-panel>.tool-link{font-size:10px;min-height:44px}
+.observer-selection{position:absolute;left:4.2vw;bottom:30px;max-width:340px;pointer-events:auto;background:#080a0dde;padding:12px 0}
+.observer-selection>small{font-size:9px;color:#aaa}.observer-selection h2{font-size:22px;margin:7px 0}.observer-selection p{font-size:11px;color:#b0b8c4;line-height:1.8}.observer-selection .orbit-actions{justify-content:flex-start}.observer-selection .tool-link{min-height:44px;font-size:10px}
+.observer-home .network-camera{right:calc(4.2vw + 360px)}
+@media(min-width:761px) and (max-width:1150px){.observer-home-local{width:235px}.observer-home-title{max-width:240px}.observer-home-title h1{font-size:35px}.observer-location{width:235px}.observer-sky-panel{width:280px}.observer-home .network-camera{right:calc(4.2vw + 300px)}.observer-selection{max-width:260px}.observer-now time{font-size:17px}}
+@media(max-width:760px){
+ .observer-home-local{display:contents}
+ .observer-home{height:auto;min-height:0;padding:23px 22px 30px;display:flex;flex-direction:column;gap:20px;pointer-events:none}
+ .observer-home-title,.observer-location,.observer-sky-panel,.observer-selection{position:relative;inset:auto;width:100%;max-width:none}
+ .observer-home-title{padding-bottom:310px}.observer-home-title h1{font-size:34px}.observer-now{margin-top:16px}.observer-now time{font-size:20px}.observer-now small{max-width:none}
+ .observer-location{order:1}.observer-sky-panel{order:3}.observer-selection{order:2;padding:10px 0}.observer-home .network-camera{top:495px;bottom:auto;left:22px;right:22px;justify-content:center}
+ .observer-home .network-camera span{display:none}.observer-sky-list{max-height:330px;min-height:100px}.observer-sky-panel{padding:17px 15px}.observer-type{font-size:10px}
+ body[data-view='overview'][data-orbit-mode='public']:has(.observer-home) #stage{top:325px;height:275px}
+ body[data-view='overview']:has(.observer-home) .timeline{margin-top:0}
+}
+@media(prefers-reduced-motion:reduce){.observer-home *{animation:none!important;transition:none!important}}

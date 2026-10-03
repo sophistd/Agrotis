@@ -1,0 +1,129 @@
+{
+  "earth": {
+    "author": "Solar System Scope / INOVE",
+    "source": "https://www.solarsystemscope.com/textures/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "distribution": "Three.js official example; resized/merged by upstream",
+    "files": {
+      "earth-day.jpg": "https://threejs.org/examples/textures/planets/earth_day_4096.jpg",
+      "earth-night.jpg": "https://threejs.org/examples/textures/planets/earth_night_4096.jpg",
+      "earth-surface.jpg": "https://threejs.org/examples/textures/planets/earth_bump_roughness_clouds_4096.jpg"
+    },
+    "usage": "Static visual texture with custom TSL shading; not current imagery or current solar geometry"
+  },
+  "font": {
+    "author": "Rasmus Andersson",
+    "source": "https://rsms.me/inter/",
+    "download": "https://rsms.me/inter/font-files/InterVariable.woff2",
+    "license": "SIL Open Font License 1.1",
+    "license_file": "Inter-LICENSE.txt",
+    "license_source": "https://github.com/rsms/inter/blob/master/LICENSE.txt"
+  },
+  "material_reference": {
+    "source": "https://threejs.org/examples/webgpu_tsl_earth.html",
+    "license": "MIT",
+    "usage": "Adapted TSL material approach; application scene, state and interactions are local"
+  },
+  "display_font": {
+    "author": "Datto Inc.",
+    "source": "https://github.com/amcchord/datto-d-din",
+    "files": [
+      "D-DIN.woff2",
+      "D-DIN-Bold.woff2"
+    ],
+    "license": "SIL Open Font License 1.1",
+    "license_file": "D-DIN-LICENSE.txt",
+    "font_log": "D-DIN-FONTLOG.txt",
+    "modified": false,
+    "usage": "Open industrial typeface; independently downloaded; SpaceX branding and logos are not reused"
+  },
+  "celestial_models": {
+    "moon": {
+      "source": "https://svs.gsfc.nasa.gov/14959/",
+      "download": "https://svs.gsfc.nasa.gov/vis/a010000/a014900/a014959/Moon_NASA_LRO_8k_Topo_Small.glb",
+      "credit": "NASA's Goddard Space Flight Center / LRO",
+      "files": [
+        "moon.glb",
+        "moon-far.glb",
+        "moon-color.jpg"
+      ],
+      "usage": "LRO topographic mesh and original 8k color image; measured source geometry simplified with recorded error; no invented terrain",
+      "redistribution": "NASA media reproduction guidelines; source intended for web interactives and animation",
+      "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "manifest": "celestial-manifest.json"
+    },
+    "bennu": {
+      "source": "https://svs.gsfc.nasa.gov/5069/",
+      "download": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005069/g_00880mm_alt_ptm_0000n00000_v020.glb",
+      "credit": "NASA / University of Arizona / CSA / York University / MDA",
+      "files": [
+        "bennu-near.glb",
+        "bennu-far.glb"
+      ],
+      "usage": "OLA v20 measured shape; 400000/99966 triangle LOD; display material is illustrative; not any imported fireball parent",
+      "manifest": "celestial-manifest.json"
+    },
+    "67p": {
+      "source": "https://sci.esa.int/web/rosetta/-/54728-shape-model-of-comet-67p",
+      "download": "https://sci.esa.int/science-e/www/object/doc.cfm?fobjectid=54726",
+      "credit": "ESA/Rosetta/MPS for OSIRIS Team MPS/UPD/LAM/IAA/SSO/INTA/UPM/DASP/IDA",
+      "files": [
+        "67p.glb"
+      ],
+      "redistribution": "ESA 2014 model made public for 3D use; retain original credits; no unverified CC license claim",
+      "release_context": "https://blogs.esa.int/rosetta/2014/10/03/measuring-comet-67pc-g/",
+      "usage": "2014 OSIRIS mesh converted without geometry simplification; approximately 30 percent then unresolved; not 2I/Borisov; coma and tails illustrate structure, not current activity",
+      "manifest": "celestial-manifest.json"
+    }
+  },
+  "spacecraft_models": {
+    "manifest": "spacecraft-manifest.json",
+    "models": [
+      {
+        "file": "iss.glb",
+        "norad": 25544,
+        "source": "https://science.nasa.gov/resource/international-space-station-3d-model/",
+        "download": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/i/ISS_stationary.glb",
+        "credit": "NASA / Visualization Technology Applications and Development (VTAD)",
+        "bytes": 44495916,
+        "sha256": "26dba905b4b7555edbcb0c5f5a61b5c18659f5166076ab27dbb0e64025759fca",
+        "meshes": 131,
+        "triangles": 247547,
+        "images": 26,
+        "geometry": "Original GLB unchanged; browser normalization only",
+        "scope": "Reference historical configuration; no current attitude or model coverage implied",
+        "usage_source": "https://science.nasa.gov/3d-resources/",
+        "guidelines": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+      },
+      {
+        "file": "hubble-a.glb",
+        "norad": 20580,
+        "source": "https://science.nasa.gov/3d-resources/hubble-space-telescope-a/",
+        "download": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/hubble-space-telescope-%28a%29/Hubble%20Space%20Telescope%20%28A%29.glb",
+        "credit": "DigitalSpace Corporation / NASA distribution",
+        "bytes": 1694988,
+        "sha256": "e5ba4de15c7d359ac8fa1ab7e286aff42dec09c0fadae3db99252587f39fa384",
+        "meshes": 1,
+        "triangles": 7672,
+        "images": 10,
+        "geometry": "Original GLB unchanged; browser normalization only",
+        "scope": "Reference historical configuration; no current attitude or model coverage implied",
+        "usage_source": "https://science.nasa.gov/3d-resources/",
+        "guidelines": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+      }
+    ],
+    "redistribution": "NASA 3D Resources states assets free to download/use; educational reference use with original attribution; no NASA endorsement or invented blanket CC license"
+  },
+  "draco": {
+    "source": "https://github.com/google/draco",
+    "license": "Apache-2.0",
+    "distribution": "three 0.186.1 examples/jsm/libs/draco/gltf",
+    "files": [
+      "draco/draco_decoder.js",
+      "draco/draco_decoder.wasm",
+      "draco/draco_wasm_wrapper.js"
+    ],
+    "usage": "Local compressed NASA GLB decoding; no external decoder CDN"
+  }
+}
