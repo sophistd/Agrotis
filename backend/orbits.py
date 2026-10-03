@@ -7,7 +7,9 @@ from pathlib import Path
 from threading import Lock
 from urllib.request import Request, urlopen
 
-DATA_PATH = Path(__file__).resolve().parents[1] / "data" / "orbit-catalog.json"
+from .storage import data_directory, read_snapshot, write_snapshot
+
+DATA_PATH = data_directory() / "orbit-catalog.json"
 GROUPS = {"stations": "空间站", "science": "科学卫星", "weather": "气象卫星"}
 REFRESH_SECONDS = 7200
 MAX_BYTES = 4_000_000
@@ -25,7 +27,7 @@ def utc_now():
 def load_orbits():
     if not DATA_PATH.exists():
         return {"version": "public-orbits/1", "items": [], "sources": [], "status": "unavailable"}
-    return json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    return read_snapshot(DATA_PATH)
 
 
 def validate_elements(raw):
@@ -92,7 +94,5 @@ def refresh_orbits():
         with ThreadPoolExecutor(max_workers=3) as pool:
             raw = dict(pool.map(_download, GROUPS))
         snapshot = build_snapshot(raw, old)
-        temporary = DATA_PATH.with_suffix(".tmp")
-        temporary.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        temporary.replace(DATA_PATH)
+        write_snapshot(DATA_PATH, snapshot)
         return {**snapshot, "refresh_status": "refreshed"}

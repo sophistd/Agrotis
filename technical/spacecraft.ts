@@ -2,6 +2,7 @@ import * as T from 'three/webgpu';
 import {DRACOLoader} from 'three/addons/loaders/DRACOLoader.js';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {state,update} from './model';
+import {modelAvailable} from './asset-availability';
 
 export const spacecraftModels = [
   {norad:25544,name:'国际空间站',english:'INTERNATIONAL SPACE STATION',file:'iss.glb',source:'https://science.nasa.gov/resource/international-space-station-3d-model/',credit:'NASA / VTAD',description:'沿着桁架，认识太阳能阵列、居住舱与连接在一起的实验室。',note:'NASA 历史构型可视化模型；组件与当前在轨构型可能不同。',parts:[['太阳能阵列','把阳光变为电能'],['中央桁架','连接阵列与热控设备'],['增压舱段','生活与实验空间']]},
@@ -24,6 +25,7 @@ export class SpacecraftScene {
     this.root.visible=active;this.models.forEach(m=>m.visible=false);this.report.active=active?state.activeNorad:0;this.report.visible=false;
     if(!active)return;
     if(!model){update({structureLoad:'尚未接入这颗卫星的可核实模型'});this.invalidate();return;}
+    if(!modelAvailable(model.file)){update({structureLoad:'模型尚未公开提供：再分发许可待核实。轨道资料仍可查看。'});this.invalidate();return;}
     update({structureLoad:'正在加载 '+model.name+'的原始模型…'});
     try {
       const object=await this.load(model.norad,model.file);

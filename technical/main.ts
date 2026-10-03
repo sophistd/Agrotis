@@ -311,3 +311,6 @@ void import('./scene').then(async module => {
   (window as unknown as {__sceneError: string}).__sceneError = String(error);
 });
 (window as unknown as {__tiange: unknown}).__tiange = {state, geometry, metrics, orbitDataset:()=>orbitDataset, observationDataset:()=>observationDataset, observationRecord, orbitalRecord, orbitState, get priority(){return priority.inspect();}, get experience(){return sensory.inspect();}, get scene(){return space?.inspection();}, get render() {return renderReport;}};
+
+// Recheck source age while an active visitor keeps the page open.
+window.setInterval(()=>{if(!document.hidden){void loadOrbits();void loadObservations();}},5*60*1000);

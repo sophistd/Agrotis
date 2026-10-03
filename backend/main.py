@@ -1,4 +1,6 @@
-from fastapi import FastAPI, HTTPException
+import os
+from fastapi import FastAPI, HTTPException, Response
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from . import API_VERSION
@@ -9,6 +11,7 @@ from .orbits import load_orbits, refresh_orbits
 from .observations import load_observations, refresh_observations
 
 app = FastAPI(title="Agrotis 科学验证 API", version=API_VERSION)
+app.add_middleware(CORSMiddleware, allow_origins=["https://agrotis.infoark.xyz", "https://agrotis.pages.dev"], allow_methods=["GET", "POST"], allow_headers=["Content-Type"], allow_credentials=False)
 
 
 @app.exception_handler(ScienceInputError)
@@ -18,7 +21,7 @@ async def science_input_error(_request, exc):
 
 @app.get("/api/v1/health")
 def health():
-    return {"version": API_VERSION, "mode": "versioned-file-validation", "telemetry_connected": False}
+    return {"version": API_VERSION, "mode": "versioned-file-validation", "telemetry_connected": False, "revision": os.environ.get("VERCEL_GIT_COMMIT_SHA", "local")}
 
 
 @app.get("/api/v1/events")
@@ -40,8 +43,9 @@ def catalog():
 
 
 @app.get("/api/v1/satellites")
-def satellites():
-    return load_orbits()
+def satellites(response: Response):
+    response.headers["Cache-Control"] = "public, max-age=0, s-maxage=60"
+    return refresh_orbits() if os.environ.get("VERCEL") else load_orbits()
 
 
 @app.post("/api/v1/satellites/refresh")
@@ -50,8 +54,9 @@ def refresh_satellites():
 
 
 @app.get("/api/v1/observations")
-def observations():
-    return load_observations()
+def observations(response: Response):
+    response.headers["Cache-Control"] = "public, max-age=0, s-maxage=60"
+    return refresh_observations() if os.environ.get("VERCEL") else load_observations()
 
 
 @app.post("/api/v1/observations/refresh")

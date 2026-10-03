@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "fastapi",
+  "regions": [
+    "iad1"
+  ],
+  "functions": {
+    "backend/main.py": {
+      "maxDuration": 60,
+      "excludeFiles": "{technical/**,scripts/**,backend/tests/**}"
+    }
+  }
+}

@@ -6,7 +6,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
 
-DATA_DIR = Path(__file__).resolve().parents[1] / "data"
+from .storage import data_directory, read_snapshot, write_snapshot
+
+DATA_DIR = data_directory()
 SNAPSHOT = DATA_DIR / "observations.json"
 REFRESH_SECONDS = 3600
 LOCK = threading.Lock()
@@ -14,7 +16,7 @@ CATEGORIES = {"wildfires": "野火", "severeStorms": "风暴", "floods": "洪水
 
 
 def load_observations():
-    return json.loads(SNAPSHOT.read_text(encoding="utf-8"))
+    return read_snapshot(SNAPSHOT)
 
 
 def finite(value):
@@ -115,7 +117,5 @@ def refresh_observations():
                 source = {**old_source, "status": "refresh_failed", "error": type(exc).__name__, "last_attempt_at": now.isoformat()}
             sources = [s for s in sources if s["id"] != source_id] + [source]
         result = {**previous, "records": records, "sources": sources, "last_attempt_at": now.isoformat(), "captured_at": max(s["captured_at"] for s in sources), "refresh_status": "refreshed"}
-        tmp = SNAPSHOT.with_suffix(".tmp")
-        tmp.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        tmp.replace(SNAPSHOT)
+        write_snapshot(SNAPSHOT, result)
         return result

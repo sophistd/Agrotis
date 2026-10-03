@@ -2,7 +2,7 @@ import {position, sourceDirection, epoch, state} from './model';
 export async function request<T>(path: string, body?: unknown): Promise<T> {
   const response = await fetch(`/api/v1${path}`, {method: body ? 'POST' : 'GET',
     headers: body ? {'Content-Type': 'application/json'} : {}, body: body ? JSON.stringify(body) : undefined,
-    signal: AbortSignal.timeout(path==='/observations/refresh'?26000:path.endsWith('/refresh') ? 16000 : 7000)});
+    signal: AbortSignal.timeout(path.includes('/observations')?45000:path.includes('/satellites') ? 30000 : 15000)});
   if (!response.ok) throw new Error(`查询失败（${response.status}）`);
   return response.json() as Promise<T>;
 }

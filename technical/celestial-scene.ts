@@ -2,6 +2,7 @@ import * as T from 'three/webgpu';
 import {vec3,instancedBufferAttribute,texture} from 'three/tsl';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {state,update,reducedMotion} from './model';
+import {modelAvailable} from './asset-availability';
 import {bodyRecords} from './celestial-objects';
 import {observationRecord,type Domain} from './observation-data';
 
@@ -28,6 +29,8 @@ export class CelestialScene {
     this.report.active=body;this.report.mode=state.celestialMode;
     this.annotations.forEach(({node})=>node.hidden=true);
     if(!this.active||body==='earth'||(body==='meteors'&&context)){update({celestialLoad:''});this.updateMarkers();this.invalidate();return;}
+    const primary=body==='moon'?'moon-far.glb':body==='meteors'?'bennu-far.glb':'67p.glb';
+    if(!modelAvailable(primary)){update({celestialLoad:'模型尚未公开提供：再分发许可待核实。原始来源与观测资料仍可阅读。'});this.invalidate();return;}
     update({celestialLoad:body==='moon'?'正在加载 LRO 月面与地形…':body==='meteors'?'正在加载 Bennu 实测网格…':'正在加载 OSIRIS 彗核网格…'});
     try{
       const key=body==='moon'?'moon-far':body==='meteors'?'bennu-far':'67p',mesh=await this.load(key);

@@ -1,0 +1,5 @@
+technical/
+scripts/
+backend/tests/
+.git/
+.venv/
