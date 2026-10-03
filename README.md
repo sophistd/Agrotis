@@ -2,7 +2,9 @@
 
 从一颗地球，探索整个宇宙。交互天文科普项目：此时此地的公开卫星、月相几何、理想光传播与火星双期影像测量。
 
-这是从完整开发版提取的技术源码初始快照，不包含私人材料或旧 Git 历史。目标网站 https://agrotis.infoark.xyz 尚未上线。
+这是从完整开发版提取的清洁技术源码，不包含私人材料或旧 Git 历史。
+
+在线体验：[agrotis.pages.dev](https://agrotis.pages.dev)。目标域名 `agrotis.infoark.xyz` 尚待域名绑定。
 
 ## 本地运行
 
